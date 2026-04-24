@@ -1,0 +1,58 @@
+# Geomolecular Biological Inference Engine
+
+Geometry is the primary matching layer. Biology is the confirmation layer.
+
+This workspace gives you a practical pipeline:
+
+1. Build or edit `data/geomolecular_template.xlsx` in Excel.
+2. Add biological definitions, geometry signatures, sources, observations, candidate materials, and product ideas.
+3. Export the workbook to an Obsidian vault grouped by geometry.
+4. Let agents search for repeated geometric patterns first, then use biological evidence to confirm or reject the fit.
+
+## Quick Start
+
+Install the one Python dependency:
+
+```powershell
+pip install -r requirements.txt
+```
+
+Create the Excel workbook template:
+
+```powershell
+python scripts/create_excel_template.py
+```
+
+Export the workbook to Obsidian markdown:
+
+```powershell
+python scripts/excel_to_obsidian.py --workbook data/geomolecular_template.xlsx --vault obsidian-vault
+```
+
+Open `obsidian-vault` as an Obsidian vault.
+
+## Geometry-First Method
+
+Each record should answer:
+
+- What is the geometry?
+- What biological observation confirms or contradicts it?
+- What material, food, molecule, structure, habitat, or behavior expresses that geometry?
+- What evidence supports the match?
+- What risk or uncertainty blocks product or medical interpretation?
+
+The system is designed so a fly attractant, indoor gnat deterrent, food aroma, plant compound, receptor pocket, delivery surface, or medical hypothesis can share a geometric signature without being forced into the same biological category too early.
+
+## Workbook Sheets
+
+- `BiologicalDefinitions`: controlled biological vocabulary.
+- `GeometrySignatures`: geometry-first descriptors and scoring dimensions.
+- `CandidateMaterials`: foods, recipes, botanicals, materials, molecules, surfaces, and product ingredients as candidates.
+- `Observations`: observed effects, context, organism, geometry link, and confidence.
+- `Sources`: citations, URLs, lab notes, or internal evidence.
+- `ProductIdeas`: non-actionable concepts and safety review needs.
+
+## Important Boundary
+
+This project can organize hypotheses for research and product discovery. It should not output synthesis recipes, medical dosing, treatment instructions, pesticide application instructions, or unsupported efficacy claims.
+
