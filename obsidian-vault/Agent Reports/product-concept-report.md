@@ -21,15 +21,7 @@ Agent: `product-concept-agent`
 - [[Citronella candle]]
 
 **Concept Note:**
-Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash', 'Citronella candle'] all express the same geometry signature 'Volatile plume gradient'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.
-
-**Required Validation:**
-- Confirm geometry match with controlled measurement.
-- Safety review for any combined material exposure.
-- Review blocked claims before any product statement.
-
-**Blocked Claims:**
-- Do not claim efficacy, medical value, or pesticide action without validation.
+Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash', 'Citronella candle'] all express geometry signature 'Volatile plume gradient'. Consider combining or comparing features across these candidates.
 
 ---
 
@@ -43,15 +35,7 @@ Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash
 - [[Essential oil diffuser]]
 
 **Concept Note:**
-Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express the same geometry signature 'Volatile plume temporal pulse'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.
-
-**Required Validation:**
-- Confirm geometry match with controlled measurement.
-- Safety review for any combined material exposure.
-- Review blocked claims before any product statement.
-
-**Blocked Claims:**
-- Do not claim efficacy, medical value, or pesticide action without validation.
+Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express geometry signature 'Volatile plume temporal pulse'. Consider combining or comparing features across these candidates.
 
 ---
 
@@ -65,15 +49,7 @@ Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express the same g
 - [[Menthol crystal]]
 
 **Concept Note:**
-Candidates ['Capsaicin extract', 'Menthol crystal'] all express the same geometry signature 'Binding pocket cavity'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.
-
-**Required Validation:**
-- Confirm geometry match with controlled measurement.
-- Safety review for any combined material exposure.
-- Review blocked claims before any product statement.
-
-**Blocked Claims:**
-- Do not claim efficacy, medical value, or pesticide action without validation.
+Candidates ['Capsaicin extract', 'Menthol crystal'] all express geometry signature 'Binding pocket cavity'. Consider combining or comparing features across these candidates.
 
 ---
 
@@ -87,15 +63,7 @@ Candidates ['Capsaicin extract', 'Menthol crystal'] all express the same geometr
 - [[Aloe vera gel]]
 
 **Concept Note:**
-Candidates ['Menthol crystal', 'Aloe vera gel'] all express the same geometry signature 'Skin lamellar lipid layer'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.
-
-**Required Validation:**
-- Confirm geometry match with controlled measurement.
-- Safety review for any combined material exposure.
-- Review blocked claims before any product statement.
-
-**Blocked Claims:**
-- Do not claim efficacy, medical value, or pesticide action without validation.
+Candidates ['Menthol crystal', 'Aloe vera gel'] all express geometry signature 'Skin lamellar lipid layer'. Consider combining or comparing features across these candidates.
 
 ---
 
@@ -108,14 +76,7 @@ Candidates ['Menthol crystal', 'Aloe vera gel'] all express the same geometry si
 - [[Soap film residue]]
 
 **Concept Note:**
-Geometry 'Surface film interface' has observations but few candidates. Search for additional materials, recipes, or compounds that express this geometry.
-
-**Required Validation:**
-- Identify new candidate materials with matching geometry signature.
-- Measure geometry expression before biological confirmation.
-
-**Blocked Claims:**
-- Do not assume biological relevance without confirmation data.
+Geometry 'Surface film interface' has 1 observation(s) but only 1 candidate(s). Consider searching for more candidates.
 
 ---
 
@@ -128,14 +89,7 @@ Geometry 'Surface film interface' has observations but few candidates. Search fo
 - [[Citronella candle]]
 
 **Concept Note:**
-Geometry 'Temporal pulse train' has observations but few candidates. Search for additional materials, recipes, or compounds that express this geometry.
-
-**Required Validation:**
-- Identify new candidate materials with matching geometry signature.
-- Measure geometry expression before biological confirmation.
-
-**Blocked Claims:**
-- Do not assume biological relevance without confirmation data.
+Geometry 'Temporal pulse train' has 1 observation(s) but only 1 candidate(s). Consider searching for more candidates.
 
 ---
 
@@ -149,14 +103,7 @@ Geometry 'Temporal pulse train' has observations but few candidates. Search for 
 - [[Sugar fermentation aroma]]
 
 **Concept Note:**
-Extend existing idea 'Geometry-led insect behavior screen' by exploring additional candidates that share its driving geometry signatures.
-
-**Required Validation:**
-- Review original idea validation requirements.
-- Assess new candidate safety status before combination.
-
-**Blocked Claims:**
-- Do not claim attraction, repellency, elimination, medical value, or pesticide efficacy yet
+Existing idea 'Geometry-led insect behavior screen' is driven by geometries: Volatile plume gradient, Surface film interface. Consider additional candidates that share these geometries.
 
 ---
 
@@ -171,14 +118,7 @@ Extend existing idea 'Geometry-led insect behavior screen' by exploring addition
 - [[Citronella candle]]
 
 **Concept Note:**
-Extend existing idea 'Pulse modulated aroma delivery' by exploring additional candidates that share its driving geometry signatures.
-
-**Required Validation:**
-- Review original idea validation requirements.
-- Assess new candidate safety status before combination.
-
-**Blocked Claims:**
-- Do not claim repellency, medical effect, or guaranteed behavioral change
+Existing idea 'Pulse modulated aroma delivery' is driven by geometries: Volatile plume temporal pulse, Temporal pulse train. Consider additional candidates that share these geometries.
 
 ---
 
@@ -192,14 +132,7 @@ Extend existing idea 'Pulse modulated aroma delivery' by exploring additional ca
 - [[Baking soda paste]]
 
 **Concept Note:**
-Extend existing idea 'Geometry-led surface coating screen' by exploring additional candidates that share its driving geometry signatures.
-
-**Required Validation:**
-- Review original idea validation requirements.
-- Assess new candidate safety status before combination.
-
-**Blocked Claims:**
-- Do not claim pesticidal, medical, or antimicrobial surface action without validation
+Existing idea 'Geometry-led surface coating screen' is driven by geometries: Surface film interface, Surface texture ridge. Consider additional candidates that share these geometries.
 
 ---
 
@@ -214,17 +147,6 @@ Extend existing idea 'Geometry-led surface coating screen' by exploring addition
 - [[Capsaicin extract]]
 
 **Concept Note:**
-Extend existing idea 'Dermal permeation geometry screen' by exploring additional candidates that share its driving geometry signatures.
-
-**Required Validation:**
-- Review original idea validation requirements.
-- Assess new candidate safety status before combination.
-
-**Blocked Claims:**
-- Do not claim therapeutic effect, dosing, or clinical efficacy
+Existing idea 'Dermal permeation geometry screen' is driven by geometries: Skin lamellar lipid layer, Binding pocket cavity. Consider additional candidates that share these geometries.
 
 ---
-
-## Safety Boundary
-
-All concepts are non-actionable hypotheses. No synthesis instructions, dosing, or efficacy claims are included.

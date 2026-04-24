@@ -61,7 +61,7 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
 
     concepts = []
 
-    # Strategy 1: Pair candidates that share geometry but serve different biology
+    # Strategy 1: Candidates sharing the same geometry
     geo_to_candidates: dict[str, list[str]] = {}
     for c in candidates:
         for gid in split_ids(c.get("geometry_ids", "")):
@@ -75,7 +75,6 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
             continue
 
         names = [cand_by_id[cid].get("name", cid) for cid in cand_ids if cid in cand_by_id]
-        types = [cand_by_id[cid].get("candidate_type", "") for cid in cand_ids if cid in cand_by_id]
 
         concepts.append({
             "concept_id": f"CONCEPT-COMBINE-{gid}",
@@ -83,23 +82,14 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
             "geometry_id": gid,
             "geometry_name": geo.get("geometry_name", gid),
             "candidate_names": names,
-            "candidate_types": list(set(types)),
             "concept_note": (
-                f"Candidates {[n for n in names]} all express the same geometry signature "
-                f"'{geo.get('geometry_name', gid)}'. A product or compound that amplifies or "
-                f"modulates this geometry might combine features from each candidate domain."
+                f"Candidates {names} all express geometry signature "
+                f"'{geo.get('geometry_name', gid)}'. "
+                f"Consider combining or comparing features across these candidates."
             ),
-            "required_validation": [
-                "Confirm geometry match with controlled measurement.",
-                "Safety review for any combined material exposure.",
-                "Review blocked claims before any product statement.",
-            ],
-            "blocked_claims": [
-                "Do not claim efficacy, medical value, or pesticide action without validation.",
-            ],
         })
 
-    # Strategy 2: Find geometry gaps (geometries with observations but few candidates)
+    # Strategy 2: Geometries with observations but few candidates
     obs_by_geo: dict[str, int] = {}
     for o in observations:
         gid = o.get("geometry_id", "")
@@ -119,19 +109,12 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
                 "geometry_name": geo.get("geometry_name", gid),
                 "candidate_names": [cand_by_id[c].get("name", c) for c in cands],
                 "concept_note": (
-                    f"Geometry '{geo.get('geometry_name', gid)}' has observations but few candidates. "
-                    f"Search for additional materials, recipes, or compounds that express this geometry."
+                    f"Geometry '{geo.get('geometry_name', gid)}' has {count} observation(s) "
+                    f"but only {len(cands)} candidate(s). Consider searching for more candidates."
                 ),
-                "required_validation": [
-                    "Identify new candidate materials with matching geometry signature.",
-                    "Measure geometry expression before biological confirmation.",
-                ],
-                "blocked_claims": [
-                    "Do not assume biological relevance without confirmation data.",
-                ],
             })
 
-    # Strategy 3: Surface novel combinations from existing product ideas
+    # Strategy 3: Extend existing product ideas
     for idea in existing_ideas:
         idea_id = idea.get("idea_id", "")
         title = idea.get("title", "")
@@ -149,14 +132,9 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
                 "geometry_name": ", ".join(geo_names),
                 "candidate_names": cand_names,
                 "concept_note": (
-                    f"Extend existing idea '{title}' by exploring additional candidates "
-                    f"that share its driving geometry signatures."
+                    f"Existing idea '{title}' is driven by geometries: {', '.join(geo_names)}. "
+                    f"Consider additional candidates that share these geometries."
                 ),
-                "required_validation": [
-                    "Review original idea validation requirements.",
-                    "Assess new candidate safety status before combination.",
-                ],
-                "blocked_claims": idea.get("blocked_claims", "").split(".") if idea.get("blocked_claims") else [],
             })
 
     return concepts
@@ -190,28 +168,12 @@ def render_report(concepts: list[dict]) -> str:
         lines.append("**Concept Note:**")
         lines.append(c["concept_note"])
         lines.append("")
-        lines.append("**Required Validation:**")
-        for v in c.get("required_validation", []):
-            lines.append(f"- {v}")
-        lines.append("")
-        blocked = c.get("blocked_claims", [])
-        if blocked:
-            lines.append("**Blocked Claims:**")
-            for b in blocked:
-                if b.strip():
-                    lines.append(f"- {b.strip()}")
-            lines.append("")
         lines.append("---")
         lines.append("")
 
     if not concepts:
         lines.append("No concepts generated. Add more candidates, geometries, or observations.")
         lines.append("")
-
-    lines.append("## Safety Boundary")
-    lines.append("")
-    lines.append("All concepts are non-actionable hypotheses. No synthesis instructions, dosing, or efficacy claims are included.")
-    lines.append("")
 
     return "\n".join(lines)
 
@@ -233,4 +195,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

@@ -28,8 +28,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - [[Citronella candle]]
 
 **Biological contexts:**
-- [[Mosquito attraction]]
 - [[Indoor gnat flight reduction]]
+- [[Mosquito attraction]]
 - [[Fly attraction]]
 
 ---
@@ -47,8 +47,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - [[Essential oil diffuser]]
 
 **Biological contexts:**
-- [[Mosquito attraction]]
 - [[Indoor gnat flight reduction]]
+- [[Mosquito attraction]]
 - [[Fly attraction]]
 
 ---
@@ -66,8 +66,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - [[Menthol crystal]]
 
 **Biological contexts:**
-- [[Receptor pocket geometric fit]]
 - [[Skin barrier passage geometry]]
+- [[Receptor pocket geometric fit]]
 
 ---
 
@@ -84,8 +84,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - [[Aloe vera gel]]
 
 **Biological contexts:**
-- [[Receptor pocket geometric fit]]
 - [[Skin barrier passage geometry]]
+- [[Receptor pocket geometric fit]]
 
 ---
 
@@ -101,8 +101,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - [[Citronella candle]]
 
 **Biological contexts:**
-- [[Mosquito attraction]]
 - [[Indoor gnat flight reduction]]
+- [[Mosquito attraction]]
 
 ---
 

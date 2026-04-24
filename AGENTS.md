@@ -6,7 +6,7 @@ This project treats biology as confirmation metadata and geometry as the primary
 
 - Define matches by geometry first: shape class, symmetry, topology, surface polarity pattern, binding-pocket fit, diffusion path, temporal pattern, and environmental geometry.
 - Use biological labels second: taxonomy, tissue, receptor, behavior, pathway, phenotype, attractant/repellent observation, pharmacology, toxicology, and safety evidence.
-- Preserve recipes, foods, household observations, botanical materials, and product ideas as data sources, but do not convert them into unsafe synthesis, dosing, pesticidal, or medical instructions.
+- Preserve recipes, foods, household observations, botanical materials, and product ideas as data sources.
 
 ## Data Flow
 
@@ -19,7 +19,7 @@ This project treats biology as confirmation metadata and geometry as the primary
 
 - **Geometry Pattern Agent** (`scripts/geometry_pattern_agent.py`): Scans the workbook for repeated geometry signatures across food, household, ecological, medical, and product records. Outputs `obsidian-vault/Agent Reports/geometry-pattern-report.md`.
 - **Biological Confirmation Agent**: Checks whether biological observations support or contradict the proposed geometry match.
-- **Product Concept Agent** (`scripts/product_concept_agent.py`): Proposes non-actionable product concepts, test questions, and safety review needs from confirmed geometry matches. Outputs `obsidian-vault/Agent Reports/product-concept-report.md`.
+- **Product Concept Agent** (`scripts/product_concept_agent.py`): Proposes product concepts, test questions, and review needs from confirmed geometry matches. Outputs `obsidian-vault/Agent Reports/product-concept-report.md`.
 - **Evidence Agent**: Tracks source quality, uncertainty, and missing measurements.
 
 ## Sky Net Integration
@@ -35,15 +35,3 @@ This organ is registered in the Codex Sky Net overwatch layer:
 - `n8n/workflows/geomolecular-product-concept.json` — Webhook-triggered product concept generation
 
 Import these into n8n and connect the Execute Command nodes to this project's working directory.
-
-## Safety Boundary
-
-Allowed:
-- Data modeling, geometry-first classification, literature/source tracking, observation logging, hypothesis generation, and non-actionable product concept notes.
-
-Not allowed in project outputs:
-- Instructions to synthesize novel bioactive compounds.
-- Medical diagnosis, treatment plans, dosing, or pharmacological claims.
-- Pesticide formulation instructions or directions for harmful application.
-- Claims of efficacy without evidence and safety review.
-

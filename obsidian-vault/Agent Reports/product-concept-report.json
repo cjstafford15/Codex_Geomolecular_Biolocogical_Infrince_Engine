@@ -10,20 +10,7 @@
       "Yeast bloom mash",
       "Citronella candle"
     ],
-    "candidate_types": [
-      "household",
-      "recipe",
-      "food"
-    ],
-    "concept_note": "Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash', 'Citronella candle'] all express the same geometry signature 'Volatile plume gradient'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
-    "required_validation": [
-      "Confirm geometry match with controlled measurement.",
-      "Safety review for any combined material exposure.",
-      "Review blocked claims before any product statement."
-    ],
-    "blocked_claims": [
-      "Do not claim efficacy, medical value, or pesticide action without validation."
-    ]
+    "concept_note": "Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash', 'Citronella candle'] all express geometry signature 'Volatile plume gradient'. Consider combining or comparing features across these candidates."
   },
   {
     "concept_id": "CONCEPT-COMBINE-GEO-VOLATILE-PLUME-PULSE",
@@ -34,19 +21,7 @@
       "Yeast bloom mash",
       "Essential oil diffuser"
     ],
-    "candidate_types": [
-      "household",
-      "recipe"
-    ],
-    "concept_note": "Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express the same geometry signature 'Volatile plume temporal pulse'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
-    "required_validation": [
-      "Confirm geometry match with controlled measurement.",
-      "Safety review for any combined material exposure.",
-      "Review blocked claims before any product statement."
-    ],
-    "blocked_claims": [
-      "Do not claim efficacy, medical value, or pesticide action without validation."
-    ]
+    "concept_note": "Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express geometry signature 'Volatile plume temporal pulse'. Consider combining or comparing features across these candidates."
   },
   {
     "concept_id": "CONCEPT-COMBINE-GEO-BINDING-POCKET-CAVITY",
@@ -57,18 +32,7 @@
       "Capsaicin extract",
       "Menthol crystal"
     ],
-    "candidate_types": [
-      "botanical"
-    ],
-    "concept_note": "Candidates ['Capsaicin extract', 'Menthol crystal'] all express the same geometry signature 'Binding pocket cavity'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
-    "required_validation": [
-      "Confirm geometry match with controlled measurement.",
-      "Safety review for any combined material exposure.",
-      "Review blocked claims before any product statement."
-    ],
-    "blocked_claims": [
-      "Do not claim efficacy, medical value, or pesticide action without validation."
-    ]
+    "concept_note": "Candidates ['Capsaicin extract', 'Menthol crystal'] all express geometry signature 'Binding pocket cavity'. Consider combining or comparing features across these candidates."
   },
   {
     "concept_id": "CONCEPT-COMBINE-GEO-SKIN-LAMELLAR-LAYER",
@@ -79,18 +43,7 @@
       "Menthol crystal",
       "Aloe vera gel"
     ],
-    "candidate_types": [
-      "botanical"
-    ],
-    "concept_note": "Candidates ['Menthol crystal', 'Aloe vera gel'] all express the same geometry signature 'Skin lamellar lipid layer'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
-    "required_validation": [
-      "Confirm geometry match with controlled measurement.",
-      "Safety review for any combined material exposure.",
-      "Review blocked claims before any product statement."
-    ],
-    "blocked_claims": [
-      "Do not claim efficacy, medical value, or pesticide action without validation."
-    ]
+    "concept_note": "Candidates ['Menthol crystal', 'Aloe vera gel'] all express geometry signature 'Skin lamellar lipid layer'. Consider combining or comparing features across these candidates."
   },
   {
     "concept_id": "CONCEPT-GAP-GEO-SURFACE-FILM-INTERFACE",
@@ -100,14 +53,7 @@
     "candidate_names": [
       "Soap film residue"
     ],
-    "concept_note": "Geometry 'Surface film interface' has observations but few candidates. Search for additional materials, recipes, or compounds that express this geometry.",
-    "required_validation": [
-      "Identify new candidate materials with matching geometry signature.",
-      "Measure geometry expression before biological confirmation."
-    ],
-    "blocked_claims": [
-      "Do not assume biological relevance without confirmation data."
-    ]
+    "concept_note": "Geometry 'Surface film interface' has 1 observation(s) but only 1 candidate(s). Consider searching for more candidates."
   },
   {
     "concept_id": "CONCEPT-GAP-GEO-TEMPORAL-PULSE-TRAIN",
@@ -117,14 +63,7 @@
     "candidate_names": [
       "Citronella candle"
     ],
-    "concept_note": "Geometry 'Temporal pulse train' has observations but few candidates. Search for additional materials, recipes, or compounds that express this geometry.",
-    "required_validation": [
-      "Identify new candidate materials with matching geometry signature.",
-      "Measure geometry expression before biological confirmation."
-    ],
-    "blocked_claims": [
-      "Do not assume biological relevance without confirmation data."
-    ]
+    "concept_note": "Geometry 'Temporal pulse train' has 1 observation(s) but only 1 candidate(s). Consider searching for more candidates."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-GEOMETRY-LED-INSECT-BEHAVIOR",
@@ -135,15 +74,7 @@
       "Apple cider vinegar",
       "Sugar fermentation aroma"
     ],
-    "concept_note": "Extend existing idea 'Geometry-led insect behavior screen' by exploring additional candidates that share its driving geometry signatures.",
-    "required_validation": [
-      "Review original idea validation requirements.",
-      "Assess new candidate safety status before combination."
-    ],
-    "blocked_claims": [
-      "Do not claim attraction, repellency, elimination, medical value, or pesticide efficacy yet",
-      ""
-    ]
+    "concept_note": "Existing idea 'Geometry-led insect behavior screen' is driven by geometries: Volatile plume gradient, Surface film interface. Consider additional candidates that share these geometries."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-PULSE-MODULATED-AROMA",
@@ -155,15 +86,7 @@
       "Yeast bloom mash",
       "Citronella candle"
     ],
-    "concept_note": "Extend existing idea 'Pulse modulated aroma delivery' by exploring additional candidates that share its driving geometry signatures.",
-    "required_validation": [
-      "Review original idea validation requirements.",
-      "Assess new candidate safety status before combination."
-    ],
-    "blocked_claims": [
-      "Do not claim repellency, medical effect, or guaranteed behavioral change",
-      ""
-    ]
+    "concept_note": "Existing idea 'Pulse modulated aroma delivery' is driven by geometries: Volatile plume temporal pulse, Temporal pulse train. Consider additional candidates that share these geometries."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-GEOMETRY-LED-SURFACE-COATING",
@@ -174,15 +97,7 @@
       "Soap film residue",
       "Baking soda paste"
     ],
-    "concept_note": "Extend existing idea 'Geometry-led surface coating screen' by exploring additional candidates that share its driving geometry signatures.",
-    "required_validation": [
-      "Review original idea validation requirements.",
-      "Assess new candidate safety status before combination."
-    ],
-    "blocked_claims": [
-      "Do not claim pesticidal, medical, or antimicrobial surface action without validation",
-      ""
-    ]
+    "concept_note": "Existing idea 'Geometry-led surface coating screen' is driven by geometries: Surface film interface, Surface texture ridge. Consider additional candidates that share these geometries."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-DERMAL-GEOMETRY-SCREEN",
@@ -194,14 +109,6 @@
       "Aloe vera gel",
       "Capsaicin extract"
     ],
-    "concept_note": "Extend existing idea 'Dermal permeation geometry screen' by exploring additional candidates that share its driving geometry signatures.",
-    "required_validation": [
-      "Review original idea validation requirements.",
-      "Assess new candidate safety status before combination."
-    ],
-    "blocked_claims": [
-      "Do not claim therapeutic effect, dosing, or clinical efficacy",
-      ""
-    ]
+    "concept_note": "Existing idea 'Dermal permeation geometry screen' is driven by geometries: Skin lamellar lipid layer, Binding pocket cavity. Consider additional candidates that share these geometries."
   }
 ]

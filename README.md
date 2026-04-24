@@ -50,7 +50,7 @@ The system is designed so a fly attractant, indoor gnat deterrent, food aroma, p
 - `CandidateMaterials`: foods, recipes, botanicals, materials, molecules, surfaces, and product ingredients as candidates.
 - `Observations`: observed effects, context, organism, geometry link, and confidence.
 - `Sources`: citations, URLs, lab notes, or internal evidence.
-- `ProductIdeas`: non-actionable concepts and safety review needs.
+- `ProductIdeas`: concepts and review needs.
 
 ## Agent Automation
 
@@ -60,10 +60,10 @@ Run agents locally:
 # Scan for repeated geometry signatures
 python scripts/geometry_pattern_agent.py
 
-# Generate non-actionable product concepts from matches
+# Generate product concepts from matches
 python scripts/product_concept_agent.py
 
-# Full pipeline: export Excel → Obsidian → run agents
+# Full pipeline: export Excel -> Obsidian -> run agents
 python scripts/run_pipeline.py
 ```
 
@@ -90,9 +90,3 @@ To sync with Sky Net:
 cd ..\Codex_Sky_Net_
 .\scripts\scan-projects.ps1 -Register
 .\scripts\export-obsidian.ps1
-```
-
-## Important Boundary
-
-This project can organize hypotheses for research and product discovery. It should not output synthesis recipes, medical dosing, treatment instructions, pesticide application instructions, or unsupported efficacy claims.
-

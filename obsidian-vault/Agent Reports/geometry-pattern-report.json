@@ -11,8 +11,8 @@
       "candidate_count": 4,
       "observation_count": 1,
       "bio_terms": [
-        "Mosquito attraction",
         "Indoor gnat flight reduction",
+        "Mosquito attraction",
         "Fly attraction"
       ],
       "candidates": [
@@ -31,8 +31,8 @@
       "candidate_count": 2,
       "observation_count": 2,
       "bio_terms": [
-        "Mosquito attraction",
         "Indoor gnat flight reduction",
+        "Mosquito attraction",
         "Fly attraction"
       ],
       "candidates": [
@@ -49,8 +49,8 @@
       "candidate_count": 2,
       "observation_count": 1,
       "bio_terms": [
-        "Receptor pocket geometric fit",
-        "Skin barrier passage geometry"
+        "Skin barrier passage geometry",
+        "Receptor pocket geometric fit"
       ],
       "candidates": [
         "Capsaicin extract",
@@ -66,8 +66,8 @@
       "candidate_count": 2,
       "observation_count": 1,
       "bio_terms": [
-        "Receptor pocket geometric fit",
-        "Skin barrier passage geometry"
+        "Skin barrier passage geometry",
+        "Receptor pocket geometric fit"
       ],
       "candidates": [
         "Menthol crystal",
@@ -83,8 +83,8 @@
       "candidate_count": 1,
       "observation_count": 1,
       "bio_terms": [
-        "Mosquito attraction",
-        "Indoor gnat flight reduction"
+        "Indoor gnat flight reduction",
+        "Mosquito attraction"
       ],
       "candidates": [
         "Citronella candle"
