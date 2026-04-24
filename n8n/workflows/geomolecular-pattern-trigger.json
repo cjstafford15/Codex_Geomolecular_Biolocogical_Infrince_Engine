@@ -1,0 +1,89 @@
+{
+  "name": "Geomolecular Pattern Trigger",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "geomolecular-pattern-scan",
+        "responseMode": "responseNode"
+      },
+      "id": "trigger",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "geomolecular-pattern-scan"
+    },
+    {
+      "parameters": {
+        "command": "python scripts/geometry_pattern_agent.py"
+      },
+      "id": "exec-pattern",
+      "name": "Run Pattern Agent",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "command": "python scripts/excel_to_obsidian.py --workbook data/geomolecular_template.xlsx --vault obsidian-vault"
+      },
+      "id": "exec-export",
+      "name": "Export to Obsidian",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "respond",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [850, 300]
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": {
+      "main": [
+        [
+          {
+            "node": "Run Pattern Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Pattern Agent": {
+      "main": [
+        [
+          {
+            "node": "Export to Obsidian",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Export to Obsidian": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {},
+  "staticData": null,
+  "tags": ["skynet", "geomolecular", "pattern-agent"],
+  "pinData": {},
+  "versionId": "geomolecular-pattern-v1"
+}
+

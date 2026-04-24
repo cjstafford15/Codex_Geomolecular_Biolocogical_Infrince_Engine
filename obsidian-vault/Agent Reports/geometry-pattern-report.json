@@ -1,0 +1,24 @@
+{
+  "generated_at": "1777053205.6432633",
+  "geometry_count": 2,
+  "candidate_count": 2,
+  "observation_count": 1,
+  "high_frequency_geometries": [
+    {
+      "geometry_id": "GEO-VOLATILE-PLUME-GRADIENT",
+      "geometry_name": "Volatile plume gradient",
+      "section": "Volatile Plumes",
+      "candidate_count": 2,
+      "observation_count": 1,
+      "bio_terms": [
+        "Fly attraction"
+      ],
+      "candidates": [
+        "Apple cider vinegar",
+        "Sugar fermentation aroma"
+      ],
+      "match_features": "Odor intensity changes over distance; airflow and source surface alter the pattern.",
+      "confidence": 0.3
+    }
+  ]
+}

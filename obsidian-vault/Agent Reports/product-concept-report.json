@@ -1,0 +1,44 @@
+[
+  {
+    "concept_id": "CONCEPT-COMBINE-GEO-VOLATILE-PLUME-GRADIENT",
+    "strategy": "combine_same_geometry",
+    "geometry_id": "GEO-VOLATILE-PLUME-GRADIENT",
+    "geometry_name": "Volatile plume gradient",
+    "candidate_names": [
+      "Apple cider vinegar",
+      "Sugar fermentation aroma"
+    ],
+    "candidate_types": [
+      "recipe",
+      "food"
+    ],
+    "concept_note": "Candidates ['Apple cider vinegar', 'Sugar fermentation aroma'] all express the same geometry signature 'Volatile plume gradient'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
+    "required_validation": [
+      "Confirm geometry match with controlled measurement.",
+      "Safety review for any combined material exposure.",
+      "Review blocked claims before any product statement."
+    ],
+    "blocked_claims": [
+      "Do not claim efficacy, medical value, or pesticide action without validation."
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-IDEA-IDEA-GEOMETRY-LED-INSECT-BEHAVIOR",
+    "strategy": "extend_existing_idea",
+    "geometry_id": "GEO-VOLATILE-PLUME-GRADIENT,GEO-SURFACE-FILM-INTERFACE",
+    "geometry_name": "Volatile plume gradient, Surface film interface",
+    "candidate_names": [
+      "Apple cider vinegar",
+      "Sugar fermentation aroma"
+    ],
+    "concept_note": "Extend existing idea 'Geometry-led insect behavior screen' by exploring additional candidates that share its driving geometry signatures.",
+    "required_validation": [
+      "Review original idea validation requirements.",
+      "Assess new candidate safety status before combination."
+    ],
+    "blocked_claims": [
+      "Do not claim attraction, repellency, elimination, medical value, or pesticide efficacy yet",
+      ""
+    ]
+  }
+]

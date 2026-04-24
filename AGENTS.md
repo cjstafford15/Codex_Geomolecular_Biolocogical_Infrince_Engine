@@ -17,10 +17,24 @@ This project treats biology as confirmation metadata and geometry as the primary
 
 ## Agent Roles
 
-- Geometry Pattern Agent: searches for repeated geometry signatures across food, household, ecological, medical, and product records.
-- Biological Confirmation Agent: checks whether biological observations support or contradict the proposed geometry match.
-- Product Concept Agent: proposes non-actionable product concepts, test questions, and safety review needs from confirmed geometry matches.
-- Evidence Agent: tracks source quality, uncertainty, and missing measurements.
+- **Geometry Pattern Agent** (`scripts/geometry_pattern_agent.py`): Scans the workbook for repeated geometry signatures across food, household, ecological, medical, and product records. Outputs `obsidian-vault/Agent Reports/geometry-pattern-report.md`.
+- **Biological Confirmation Agent**: Checks whether biological observations support or contradict the proposed geometry match.
+- **Product Concept Agent** (`scripts/product_concept_agent.py`): Proposes non-actionable product concepts, test questions, and safety review needs from confirmed geometry matches. Outputs `obsidian-vault/Agent Reports/product-concept-report.md`.
+- **Evidence Agent**: Tracks source quality, uncertainty, and missing measurements.
+
+## Sky Net Integration
+
+This organ is registered in the Codex Sky Net overwatch layer:
+- **Organ ID:** `project-codex-geomolecular-biolocogical-infrince-engine`
+- **Intake Slot:** `project-codex-geomolecular-biolocogical-infrince-engine-intake`
+- **GitHub:** `https://github.com/cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine`
+
+### n8n Workflows
+
+- `n8n/workflows/geomolecular-pattern-trigger.json` — Webhook-triggered geometry pattern scan
+- `n8n/workflows/geomolecular-product-concept.json` — Webhook-triggered product concept generation
+
+Import these into n8n and connect the Execute Command nodes to this project's working directory.
 
 ## Safety Boundary
 

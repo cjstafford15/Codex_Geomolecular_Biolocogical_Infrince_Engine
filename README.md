@@ -52,6 +52,46 @@ The system is designed so a fly attractant, indoor gnat deterrent, food aroma, p
 - `Sources`: citations, URLs, lab notes, or internal evidence.
 - `ProductIdeas`: non-actionable concepts and safety review needs.
 
+## Agent Automation
+
+Run agents locally:
+
+```powershell
+# Scan for repeated geometry signatures
+python scripts/geometry_pattern_agent.py
+
+# Generate non-actionable product concepts from matches
+python scripts/product_concept_agent.py
+
+# Full pipeline: export Excel → Obsidian → run agents
+python scripts/run_pipeline.py
+```
+
+## n8n Integration
+
+Import the workflow JSON files from `n8n/workflows/` into your n8n instance:
+
+- `geomolecular-pattern-trigger.json` — webhook to trigger pattern scan
+- `geomolecular-product-concept.json` — webhook to trigger product concept generation
+
+Configure the Execute Command nodes to point to this project's directory.
+
+## Sky Net Connection
+
+This project is registered as an organ in the **Codex Sky Net** overwatch layer:
+
+- **Organ ID:** `project-codex-geomolecular-biolocogical-infrince-engine`
+- **GitHub:** `https://github.com/cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine`
+- **Sky Net Path:** `C:\Users\cjsta\OneDrive\Documents\Codex_Sky_Net_`
+
+To sync with Sky Net:
+
+```powershell
+cd ..\Codex_Sky_Net_
+.\scripts\scan-projects.ps1 -Register
+.\scripts\export-obsidian.ps1
+```
+
 ## Important Boundary
 
 This project can organize hypotheses for research and product discovery. It should not output synthesis recipes, medical dosing, treatment instructions, pesticide application instructions, or unsupported efficacy claims.
