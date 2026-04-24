@@ -23,12 +23,12 @@ Effect occurs without contact or surface interaction.
 
 ## Candidate Materials
 
-- None recorded
+- [[Soap film residue]]
 
 ## Observations
 
-- None recorded
+- [[OBS-004 - Flies appeared to avoid landing on mirror surface with visible soap st]]
 
 ## Biological Confirmation Terms
 
-- None recorded
+- [[Surface adhesion repulsion]]

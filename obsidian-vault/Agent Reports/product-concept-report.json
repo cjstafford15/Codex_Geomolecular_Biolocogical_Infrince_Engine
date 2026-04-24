@@ -6,13 +6,16 @@
     "geometry_name": "Volatile plume gradient",
     "candidate_names": [
       "Apple cider vinegar",
-      "Sugar fermentation aroma"
+      "Sugar fermentation aroma",
+      "Yeast bloom mash",
+      "Citronella candle"
     ],
     "candidate_types": [
+      "household",
       "recipe",
       "food"
     ],
-    "concept_note": "Candidates ['Apple cider vinegar', 'Sugar fermentation aroma'] all express the same geometry signature 'Volatile plume gradient'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
+    "concept_note": "Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash', 'Citronella candle'] all express the same geometry signature 'Volatile plume gradient'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
     "required_validation": [
       "Confirm geometry match with controlled measurement.",
       "Safety review for any combined material exposure.",
@@ -20,6 +23,107 @@
     ],
     "blocked_claims": [
       "Do not claim efficacy, medical value, or pesticide action without validation."
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-COMBINE-GEO-VOLATILE-PLUME-PULSE",
+    "strategy": "combine_same_geometry",
+    "geometry_id": "GEO-VOLATILE-PLUME-PULSE",
+    "geometry_name": "Volatile plume temporal pulse",
+    "candidate_names": [
+      "Yeast bloom mash",
+      "Essential oil diffuser"
+    ],
+    "candidate_types": [
+      "household",
+      "recipe"
+    ],
+    "concept_note": "Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express the same geometry signature 'Volatile plume temporal pulse'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
+    "required_validation": [
+      "Confirm geometry match with controlled measurement.",
+      "Safety review for any combined material exposure.",
+      "Review blocked claims before any product statement."
+    ],
+    "blocked_claims": [
+      "Do not claim efficacy, medical value, or pesticide action without validation."
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-COMBINE-GEO-BINDING-POCKET-CAVITY",
+    "strategy": "combine_same_geometry",
+    "geometry_id": "GEO-BINDING-POCKET-CAVITY",
+    "geometry_name": "Binding pocket cavity",
+    "candidate_names": [
+      "Capsaicin extract",
+      "Menthol crystal"
+    ],
+    "candidate_types": [
+      "botanical"
+    ],
+    "concept_note": "Candidates ['Capsaicin extract', 'Menthol crystal'] all express the same geometry signature 'Binding pocket cavity'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
+    "required_validation": [
+      "Confirm geometry match with controlled measurement.",
+      "Safety review for any combined material exposure.",
+      "Review blocked claims before any product statement."
+    ],
+    "blocked_claims": [
+      "Do not claim efficacy, medical value, or pesticide action without validation."
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-COMBINE-GEO-SKIN-LAMELLAR-LAYER",
+    "strategy": "combine_same_geometry",
+    "geometry_id": "GEO-SKIN-LAMELLAR-LAYER",
+    "geometry_name": "Skin lamellar lipid layer",
+    "candidate_names": [
+      "Menthol crystal",
+      "Aloe vera gel"
+    ],
+    "candidate_types": [
+      "botanical"
+    ],
+    "concept_note": "Candidates ['Menthol crystal', 'Aloe vera gel'] all express the same geometry signature 'Skin lamellar lipid layer'. A product or compound that amplifies or modulates this geometry might combine features from each candidate domain.",
+    "required_validation": [
+      "Confirm geometry match with controlled measurement.",
+      "Safety review for any combined material exposure.",
+      "Review blocked claims before any product statement."
+    ],
+    "blocked_claims": [
+      "Do not claim efficacy, medical value, or pesticide action without validation."
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-GAP-GEO-SURFACE-FILM-INTERFACE",
+    "strategy": "fill_geometry_gap",
+    "geometry_id": "GEO-SURFACE-FILM-INTERFACE",
+    "geometry_name": "Surface film interface",
+    "candidate_names": [
+      "Soap film residue"
+    ],
+    "concept_note": "Geometry 'Surface film interface' has observations but few candidates. Search for additional materials, recipes, or compounds that express this geometry.",
+    "required_validation": [
+      "Identify new candidate materials with matching geometry signature.",
+      "Measure geometry expression before biological confirmation."
+    ],
+    "blocked_claims": [
+      "Do not assume biological relevance without confirmation data."
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-GAP-GEO-TEMPORAL-PULSE-TRAIN",
+    "strategy": "fill_geometry_gap",
+    "geometry_id": "GEO-TEMPORAL-PULSE-TRAIN",
+    "geometry_name": "Temporal pulse train",
+    "candidate_names": [
+      "Citronella candle"
+    ],
+    "concept_note": "Geometry 'Temporal pulse train' has observations but few candidates. Search for additional materials, recipes, or compounds that express this geometry.",
+    "required_validation": [
+      "Identify new candidate materials with matching geometry signature.",
+      "Measure geometry expression before biological confirmation."
+    ],
+    "blocked_claims": [
+      "Do not assume biological relevance without confirmation data."
     ]
   },
   {
@@ -38,6 +142,65 @@
     ],
     "blocked_claims": [
       "Do not claim attraction, repellency, elimination, medical value, or pesticide efficacy yet",
+      ""
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-IDEA-IDEA-PULSE-MODULATED-AROMA",
+    "strategy": "extend_existing_idea",
+    "geometry_id": "GEO-VOLATILE-PLUME-PULSE,GEO-TEMPORAL-PULSE-TRAIN",
+    "geometry_name": "Volatile plume temporal pulse, Temporal pulse train",
+    "candidate_names": [
+      "Essential oil diffuser",
+      "Yeast bloom mash",
+      "Citronella candle"
+    ],
+    "concept_note": "Extend existing idea 'Pulse modulated aroma delivery' by exploring additional candidates that share its driving geometry signatures.",
+    "required_validation": [
+      "Review original idea validation requirements.",
+      "Assess new candidate safety status before combination."
+    ],
+    "blocked_claims": [
+      "Do not claim repellency, medical effect, or guaranteed behavioral change",
+      ""
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-IDEA-IDEA-GEOMETRY-LED-SURFACE-COATING",
+    "strategy": "extend_existing_idea",
+    "geometry_id": "GEO-SURFACE-FILM-INTERFACE,GEO-SURFACE-TEXTURE-RIDGE",
+    "geometry_name": "Surface film interface, Surface texture ridge",
+    "candidate_names": [
+      "Soap film residue",
+      "Baking soda paste"
+    ],
+    "concept_note": "Extend existing idea 'Geometry-led surface coating screen' by exploring additional candidates that share its driving geometry signatures.",
+    "required_validation": [
+      "Review original idea validation requirements.",
+      "Assess new candidate safety status before combination."
+    ],
+    "blocked_claims": [
+      "Do not claim pesticidal, medical, or antimicrobial surface action without validation",
+      ""
+    ]
+  },
+  {
+    "concept_id": "CONCEPT-IDEA-IDEA-DERMAL-GEOMETRY-SCREEN",
+    "strategy": "extend_existing_idea",
+    "geometry_id": "GEO-SKIN-LAMELLAR-LAYER,GEO-BINDING-POCKET-CAVITY",
+    "geometry_name": "Skin lamellar lipid layer, Binding pocket cavity",
+    "candidate_names": [
+      "Menthol crystal",
+      "Aloe vera gel",
+      "Capsaicin extract"
+    ],
+    "concept_note": "Extend existing idea 'Dermal permeation geometry screen' by exploring additional candidates that share its driving geometry signatures.",
+    "required_validation": [
+      "Review original idea validation requirements.",
+      "Assess new candidate safety status before combination."
+    ],
+    "blocked_claims": [
+      "Do not claim therapeutic effect, dosing, or clinical efficacy",
       ""
     ]
   }

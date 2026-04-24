@@ -1,23 +1,95 @@
 {
   "generated_at": "1777053205.6432633",
-  "geometry_count": 2,
-  "candidate_count": 2,
-  "observation_count": 1,
+  "geometry_count": 7,
+  "candidate_count": 10,
+  "observation_count": 7,
   "high_frequency_geometries": [
     {
       "geometry_id": "GEO-VOLATILE-PLUME-GRADIENT",
       "geometry_name": "Volatile plume gradient",
       "section": "Volatile Plumes",
-      "candidate_count": 2,
+      "candidate_count": 4,
       "observation_count": 1,
       "bio_terms": [
+        "Mosquito attraction",
+        "Indoor gnat flight reduction",
         "Fly attraction"
       ],
       "candidates": [
         "Apple cider vinegar",
-        "Sugar fermentation aroma"
+        "Sugar fermentation aroma",
+        "Yeast bloom mash",
+        "Citronella candle"
       ],
       "match_features": "Odor intensity changes over distance; airflow and source surface alter the pattern.",
+      "confidence": 0.3
+    },
+    {
+      "geometry_id": "GEO-VOLATILE-PLUME-PULSE",
+      "geometry_name": "Volatile plume temporal pulse",
+      "section": "Volatile Plumes",
+      "candidate_count": 2,
+      "observation_count": 2,
+      "bio_terms": [
+        "Mosquito attraction",
+        "Indoor gnat flight reduction",
+        "Fly attraction"
+      ],
+      "candidates": [
+        "Yeast bloom mash",
+        "Essential oil diffuser"
+      ],
+      "match_features": "Odor releases in bursts rather than steady stream; temporal pattern may trigger different behavior than constant exposure.",
+      "confidence": 0.3
+    },
+    {
+      "geometry_id": "GEO-BINDING-POCKET-CAVITY",
+      "geometry_name": "Binding pocket cavity",
+      "section": "Binding Pockets",
+      "candidate_count": 2,
+      "observation_count": 1,
+      "bio_terms": [
+        "Receptor pocket geometric fit",
+        "Skin barrier passage geometry"
+      ],
+      "candidates": [
+        "Capsaicin extract",
+        "Menthol crystal"
+      ],
+      "match_features": "Complementary shape and polarity distribution allow molecular docking into a receptor cavity.",
+      "confidence": 0.6
+    },
+    {
+      "geometry_id": "GEO-SKIN-LAMELLAR-LAYER",
+      "geometry_name": "Skin lamellar lipid layer",
+      "section": "Surface Films",
+      "candidate_count": 2,
+      "observation_count": 1,
+      "bio_terms": [
+        "Receptor pocket geometric fit",
+        "Skin barrier passage geometry"
+      ],
+      "candidates": [
+        "Menthol crystal",
+        "Aloe vera gel"
+      ],
+      "match_features": "Lipid bilayers arranged in stacked sheets; hydrophilic and hydrophobic regions alternate. Permeation depends on defect geometry and molecule aspect ratio.",
+      "confidence": 0.6
+    },
+    {
+      "geometry_id": "GEO-TEMPORAL-PULSE-TRAIN",
+      "geometry_name": "Temporal pulse train",
+      "section": "Temporal Pulses",
+      "candidate_count": 1,
+      "observation_count": 1,
+      "bio_terms": [
+        "Mosquito attraction",
+        "Indoor gnat flight reduction"
+      ],
+      "candidates": [
+        "Citronella candle"
+      ],
+      "match_features": "Repetitive stimulus bursts at fixed or variable intervals; entrainment or habituation may depend on frequency and duty cycle.",
       "confidence": 0.3
     }
   ]

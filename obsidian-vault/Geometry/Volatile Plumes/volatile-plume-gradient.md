@@ -24,7 +24,9 @@ No measurable volatile gradient or behavior occurs only by visual/contact cues.
 ## Candidate Materials
 
 - [[Apple cider vinegar]]
+- [[Citronella candle]]
 - [[Sugar fermentation aroma]]
+- [[Yeast bloom mash]]
 
 ## Observations
 
@@ -33,3 +35,5 @@ No measurable volatile gradient or behavior occurs only by visual/contact cues.
 ## Biological Confirmation Terms
 
 - [[Fly attraction]]
+- [[Indoor gnat flight reduction]]
+- [[Mosquito attraction]]

@@ -5,9 +5,9 @@ Agent: `geometry-pattern-agent`
 
 ## Summary
 
-- Total geometries: 2
-- Total candidates: 2
-- Total observations: 1
+- Total geometries: 7
+- Total candidates: 10
+- Total observations: 7
 
 ## High-Frequency Geometry Matches
 
@@ -16,7 +16,7 @@ These geometries appear across multiple candidates or biological contexts. They 
 ### Volatile plume gradient (`GEO-VOLATILE-PLUME-GRADIENT`)
 
 - Section: Volatile Plumes
-- Candidates: 2
+- Candidates: 4
 - Observations: 1
 - Average confidence: 0.3
 - Match features: Odor intensity changes over distance; airflow and source surface alter the pattern.
@@ -24,9 +24,85 @@ These geometries appear across multiple candidates or biological contexts. They 
 **Candidates:**
 - [[Apple cider vinegar]]
 - [[Sugar fermentation aroma]]
+- [[Yeast bloom mash]]
+- [[Citronella candle]]
 
 **Biological contexts:**
+- [[Mosquito attraction]]
+- [[Indoor gnat flight reduction]]
 - [[Fly attraction]]
+
+---
+
+### Volatile plume temporal pulse (`GEO-VOLATILE-PLUME-PULSE`)
+
+- Section: Volatile Plumes
+- Candidates: 2
+- Observations: 2
+- Average confidence: 0.3
+- Match features: Odor releases in bursts rather than steady stream; temporal pattern may trigger different behavior than constant exposure.
+
+**Candidates:**
+- [[Yeast bloom mash]]
+- [[Essential oil diffuser]]
+
+**Biological contexts:**
+- [[Mosquito attraction]]
+- [[Indoor gnat flight reduction]]
+- [[Fly attraction]]
+
+---
+
+### Binding pocket cavity (`GEO-BINDING-POCKET-CAVITY`)
+
+- Section: Binding Pockets
+- Candidates: 2
+- Observations: 1
+- Average confidence: 0.6
+- Match features: Complementary shape and polarity distribution allow molecular docking into a receptor cavity.
+
+**Candidates:**
+- [[Capsaicin extract]]
+- [[Menthol crystal]]
+
+**Biological contexts:**
+- [[Receptor pocket geometric fit]]
+- [[Skin barrier passage geometry]]
+
+---
+
+### Skin lamellar lipid layer (`GEO-SKIN-LAMELLAR-LAYER`)
+
+- Section: Surface Films
+- Candidates: 2
+- Observations: 1
+- Average confidence: 0.6
+- Match features: Lipid bilayers arranged in stacked sheets; hydrophilic and hydrophobic regions alternate. Permeation depends on defect geometry and molecule aspect ratio.
+
+**Candidates:**
+- [[Menthol crystal]]
+- [[Aloe vera gel]]
+
+**Biological contexts:**
+- [[Receptor pocket geometric fit]]
+- [[Skin barrier passage geometry]]
+
+---
+
+### Temporal pulse train (`GEO-TEMPORAL-PULSE-TRAIN`)
+
+- Section: Temporal Pulses
+- Candidates: 1
+- Observations: 1
+- Average confidence: 0.3
+- Match features: Repetitive stimulus bursts at fixed or variable intervals; entrainment or habituation may depend on frequency and duty cycle.
+
+**Candidates:**
+- [[Citronella candle]]
+
+**Biological contexts:**
+- [[Mosquito attraction]]
+- [[Indoor gnat flight reduction]]
 
 ---
 
