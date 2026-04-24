@@ -12,6 +12,6 @@
 - [x] Create GitHub repo and push
 - [x] Register project in Sky Net registry
 - [x] Export Sky Net Obsidian vault
-- [ ] Test pipeline and verify outputs
-- [ ] Commit and push all changes
+- [x] Test pipeline and verify outputs
+- [x] Commit and push all changes
 
