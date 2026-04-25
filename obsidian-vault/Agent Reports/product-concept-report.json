@@ -10,7 +10,8 @@
       "Yeast bloom mash",
       "Citronella candle"
     ],
-    "concept_note": "Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash', 'Citronella candle'] all express geometry signature 'Volatile plume gradient'. Consider combining or comparing features across these candidates."
+    "evidence_score": 0.223,
+    "concept_note": "Candidates ['Apple cider vinegar', 'Sugar fermentation aroma', 'Yeast bloom mash', 'Citronella candle'] all express geometry signature 'Volatile plume gradient'. Compare features across these candidates and prioritize validation before claims."
   },
   {
     "concept_id": "CONCEPT-COMBINE-GEO-VOLATILE-PLUME-PULSE",
@@ -21,7 +22,8 @@
       "Yeast bloom mash",
       "Essential oil diffuser"
     ],
-    "concept_note": "Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express geometry signature 'Volatile plume temporal pulse'. Consider combining or comparing features across these candidates."
+    "evidence_score": 0.234,
+    "concept_note": "Candidates ['Yeast bloom mash', 'Essential oil diffuser'] all express geometry signature 'Volatile plume temporal pulse'. Compare features across these candidates and prioritize validation before claims."
   },
   {
     "concept_id": "CONCEPT-COMBINE-GEO-BINDING-POCKET-CAVITY",
@@ -32,7 +34,8 @@
       "Capsaicin extract",
       "Menthol crystal"
     ],
-    "concept_note": "Candidates ['Capsaicin extract', 'Menthol crystal'] all express geometry signature 'Binding pocket cavity'. Consider combining or comparing features across these candidates."
+    "evidence_score": 0.41,
+    "concept_note": "Candidates ['Capsaicin extract', 'Menthol crystal'] all express geometry signature 'Binding pocket cavity'. Compare features across these candidates and prioritize validation before claims."
   },
   {
     "concept_id": "CONCEPT-COMBINE-GEO-SKIN-LAMELLAR-LAYER",
@@ -43,7 +46,8 @@
       "Menthol crystal",
       "Aloe vera gel"
     ],
-    "concept_note": "Candidates ['Menthol crystal', 'Aloe vera gel'] all express geometry signature 'Skin lamellar lipid layer'. Consider combining or comparing features across these candidates."
+    "evidence_score": 0.41,
+    "concept_note": "Candidates ['Menthol crystal', 'Aloe vera gel'] all express geometry signature 'Skin lamellar lipid layer'. Compare features across these candidates and prioritize validation before claims."
   },
   {
     "concept_id": "CONCEPT-GAP-GEO-SURFACE-FILM-INTERFACE",
@@ -53,7 +57,8 @@
     "candidate_names": [
       "Soap film residue"
     ],
-    "concept_note": "Geometry 'Surface film interface' has 1 observation(s) but only 1 candidate(s). Consider searching for more candidates."
+    "evidence_score": 0.245,
+    "concept_note": "Geometry 'Surface film interface' has 1 observation(s) but only 1 candidate(s). Add candidates and measurement controls."
   },
   {
     "concept_id": "CONCEPT-GAP-GEO-TEMPORAL-PULSE-TRAIN",
@@ -63,7 +68,8 @@
     "candidate_names": [
       "Citronella candle"
     ],
-    "concept_note": "Geometry 'Temporal pulse train' has 1 observation(s) but only 1 candidate(s). Consider searching for more candidates."
+    "evidence_score": 0.245,
+    "concept_note": "Geometry 'Temporal pulse train' has 1 observation(s) but only 1 candidate(s). Add candidates and measurement controls."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-GEOMETRY-LED-INSECT-BEHAVIOR",
@@ -74,7 +80,8 @@
       "Apple cider vinegar",
       "Sugar fermentation aroma"
     ],
-    "concept_note": "Existing idea 'Geometry-led insect behavior screen' is driven by geometries: Volatile plume gradient, Surface film interface. Consider additional candidates that share these geometries."
+    "evidence_score": 0.234,
+    "concept_note": "Existing idea 'Geometry-led insect behavior screen' is driven by geometries: Volatile plume gradient, Surface film interface. Extend only after evidence gaps and blocked claims are reviewed."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-PULSE-MODULATED-AROMA",
@@ -86,7 +93,8 @@
       "Yeast bloom mash",
       "Citronella candle"
     ],
-    "concept_note": "Existing idea 'Pulse modulated aroma delivery' is driven by geometries: Volatile plume temporal pulse, Temporal pulse train. Consider additional candidates that share these geometries."
+    "evidence_score": 0.239,
+    "concept_note": "Existing idea 'Pulse modulated aroma delivery' is driven by geometries: Volatile plume temporal pulse, Temporal pulse train. Extend only after evidence gaps and blocked claims are reviewed."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-GEOMETRY-LED-SURFACE-COATING",
@@ -97,7 +105,8 @@
       "Soap film residue",
       "Baking soda paste"
     ],
-    "concept_note": "Existing idea 'Geometry-led surface coating screen' is driven by geometries: Surface film interface, Surface texture ridge. Consider additional candidates that share these geometries."
+    "evidence_score": 0.122,
+    "concept_note": "Existing idea 'Geometry-led surface coating screen' is driven by geometries: Surface film interface, Surface texture ridge. Extend only after evidence gaps and blocked claims are reviewed."
   },
   {
     "concept_id": "CONCEPT-IDEA-IDEA-DERMAL-GEOMETRY-SCREEN",
@@ -109,6 +118,7 @@
       "Aloe vera gel",
       "Capsaicin extract"
     ],
-    "concept_note": "Existing idea 'Dermal permeation geometry screen' is driven by geometries: Skin lamellar lipid layer, Binding pocket cavity. Consider additional candidates that share these geometries."
+    "evidence_score": 0.41,
+    "concept_note": "Existing idea 'Dermal permeation geometry screen' is driven by geometries: Skin lamellar lipid layer, Binding pocket cavity. Extend only after evidence gaps and blocked claims are reviewed."
   }
 ]

@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-04-25T02:53:16.245211+00:00",
+  "privacy_policy": "private-first; no public publication of repo, webhook URLs, reports, or external-drive knowledge without explicit approval",
+  "overall": {
+    "overall_score": 99.4,
+    "status": "excellent_connectivity",
+    "message": "Private coordination is in strong condition.",
+    "components_analyzed": 5,
+    "average_component_score": 99.4
+  },
+  "components": [
+    {
+      "component": "privacy_posture",
+      "status": "private_confirmed",
+      "score": 100,
+      "notes": "Origin remote points at expected repo: cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine. GitHub CLI confirms repository visibility is private.",
+      "repo": "cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine",
+      "origin_remote": "https://github.com/cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine.git",
+      "visibility": "private",
+      "policy": "Keep project coordination private; do not publish webhook URLs, repo contents, reports, or external-drive knowledge dumps publicly.",
+      "opportunities": [
+        "Verify GitHub repo privacy after every remote migration",
+        "Keep n8n webhook URLs private",
+        "Use private issues or PRs for cross-project messages"
+      ]
+    },
+    {
+      "component": "tokenization",
+      "library": "tiktoken",
+      "status": "operational",
+      "score": 100,
+      "notes": "tiktoken ready with 5 test tokens",
+      "opportunities": [
+        "AI text processing",
+        "embedding preparation",
+        "model input tokenization"
+      ]
+    },
+    {
+      "component": "n8n_workflows",
+      "status": "private_local_ready",
+      "score": 100,
+      "notes": "2/2 workflows run the local project pipeline without external egress nodes",
+      "workflows": [
+        {
+          "file": "geomolecular-pattern-trigger.json",
+          "name": "Geomolecular Pattern Trigger",
+          "nodes": 3,
+          "api_nodes": 2,
+          "integrations": [
+            "n8n-nodes-base.webhook",
+            "n8n-nodes-base.respondToWebhook"
+          ],
+          "webhook_paths": [
+            "geomolecular-pattern-scan"
+          ],
+          "commands": [
+            "python scripts/run_pipeline.py"
+          ],
+          "tags": [
+            "skynet",
+            "geomolecular",
+            "pattern-agent",
+            "evidence-agent",
+            "captain-agent",
+            "private-local"
+          ],
+          "version_id": "geomolecular-pattern-v3",
+          "private_ready": true
+        },
+        {
+          "file": "geomolecular-product-concept.json",
+          "name": "Geomolecular Product Concept Generator",
+          "nodes": 3,
+          "api_nodes": 2,
+          "integrations": [
+            "n8n-nodes-base.webhook",
+            "n8n-nodes-base.respondToWebhook"
+          ],
+          "webhook_paths": [
+            "geomolecular-product-concept"
+          ],
+          "commands": [
+            "python scripts/run_pipeline.py"
+          ],
+          "tags": [
+            "skynet",
+            "geomolecular",
+            "product-agent",
+            "evidence-agent",
+            "captain-agent",
+            "private-local"
+          ],
+          "version_id": "geomolecular-product-v3",
+          "private_ready": true
+        }
+      ],
+      "unique_integrations": [
+        "n8n-nodes-base.webhook",
+        "n8n-nodes-base.respondToWebhook"
+      ],
+      "opportunities": [
+        "Keep webhook URLs private",
+        "Import updated workflow JSON after pipeline changes",
+        "Use Execute Command only for local project scripts unless reviewed"
+      ]
+    },
+    {
+      "component": "agent_scripts",
+      "status": "private_local_ready",
+      "score": 97,
+      "notes": "Average private-local readiness: 97.1%",
+      "agents": [
+        {
+          "name": "create_excel_template",
+          "features": [
+            "local-only",
+            "secret-free",
+            "standalone-runnable",
+            "shared-data-path"
+          ],
+          "score": 100,
+          "has_external_egress": false,
+          "has_secret_like_text": false,
+          "has_main_guard": true,
+          "uses_shared_loader": true
+        },
+        {
+          "name": "evidence_agent",
+          "features": [
+            "local-only",
+            "secret-free",
+            "standalone-runnable",
+            "shared-data-path"
+          ],
+          "score": 100,
+          "has_external_egress": false,
+          "has_secret_like_text": false,
+          "has_main_guard": true,
+          "uses_shared_loader": true
+        },
+        {
+          "name": "excel_to_obsidian",
+          "features": [
+            "local-only",
+            "secret-free",
+            "standalone-runnable",
+            "shared-data-path"
+          ],
+          "score": 100,
+          "has_external_egress": false,
+          "has_secret_like_text": false,
+          "has_main_guard": true,
+          "uses_shared_loader": true
+        },
+        {
+          "name": "geometry_pattern_agent",
+          "features": [
+            "local-only",
+            "secret-free",
+            "standalone-runnable",
+            "shared-data-path"
+          ],
+          "score": 100,
+          "has_external_egress": false,
+          "has_secret_like_text": false,
+          "has_main_guard": true,
+          "uses_shared_loader": true
+        },
+        {
+          "name": "geomolecular_data",
+          "features": [
+            "local-only",
+            "secret-free",
+            "shared-data-path"
+          ],
+          "score": 80,
+          "has_external_egress": false,
+          "has_secret_like_text": false,
+          "has_main_guard": false,
+          "uses_shared_loader": true
+        },
+        {
+          "name": "product_concept_agent",
+          "features": [
+            "local-only",
+            "secret-free",
+            "standalone-runnable",
+            "shared-data-path"
+          ],
+          "score": 100,
+          "has_external_egress": false,
+          "has_secret_like_text": false,
+          "has_main_guard": true,
+          "uses_shared_loader": true
+        },
+        {
+          "name": "run_pipeline",
+          "features": [
+            "local-only",
+            "secret-free",
+            "standalone-runnable",
+            "shared-data-path"
+          ],
+          "score": 100,
+          "has_external_egress": false,
+          "has_secret_like_text": false,
+          "has_main_guard": true,
+          "uses_shared_loader": true
+        }
+      ],
+      "opportunities": [
+        "Keep agents local-only unless external egress is explicitly reviewed",
+        "Use shared workbook loaders for every agent that reads project data",
+        "Add tests around generated reports before expanding automation"
+      ]
+    },
+    {
+      "component": "network_recommendations",
+      "status": "analyzed",
+      "score": 100,
+      "recommendations": {
+        "local_networks": [
+          {
+            "name": "Local File System",
+            "purpose": "Data persistence and sharing between agents",
+            "score": 95
+          },
+          {
+            "name": "Local APIs",
+            "purpose": "Inter-agent communication",
+            "score": 80
+          },
+          {
+            "name": "SQLite/PostgreSQL",
+            "purpose": "Structured data storage",
+            "score": 90
+          }
+        ],
+        "cloud_networks": [
+          {
+            "name": "Private GitHub",
+            "purpose": "Version control, private issue packets, and controlled PRs",
+            "score": 100
+          },
+          {
+            "name": "Private n8n",
+            "purpose": "Workflow automation with private webhook URLs and local commands",
+            "score": 90
+          },
+          {
+            "name": "OpenAI API",
+            "purpose": "AI processing with tiktoken",
+            "score": 90
+          },
+          {
+            "name": "Private Cloud Compute",
+            "purpose": "Scalable processing only after data-egress review",
+            "score": 70
+          }
+        ],
+        "diversification_strategy": {
+          "primary": "Local-first for data sovereignty",
+          "secondary": "Private GitHub for durable cross-project coordination",
+          "backup": "n8n automation only when workflow exports remain secret-free"
+        }
+      }
+    }
+  ],
+  "privacy_posture": {
+    "component": "privacy_posture",
+    "status": "private_confirmed",
+    "score": 100,
+    "notes": "Origin remote points at expected repo: cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine. GitHub CLI confirms repository visibility is private.",
+    "repo": "cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine",
+    "origin_remote": "https://github.com/cjstafford15/Codex_Geomolecular_Biolocogical_Infrince_Engine.git",
+    "visibility": "private",
+    "policy": "Keep project coordination private; do not publish webhook URLs, repo contents, reports, or external-drive knowledge dumps publicly.",
+    "opportunities": [
+      "Verify GitHub repo privacy after every remote migration",
+      "Keep n8n webhook URLs private",
+      "Use private issues or PRs for cross-project messages"
+    ]
+  },
+  "network_recommendations": {
+    "component": "network_recommendations",
+    "status": "analyzed",
+    "score": 100,
+    "recommendations": {
+      "local_networks": [
+        {
+          "name": "Local File System",
+          "purpose": "Data persistence and sharing between agents",
+          "score": 95
+        },
+        {
+          "name": "Local APIs",
+          "purpose": "Inter-agent communication",
+          "score": 80
+        },
+        {
+          "name": "SQLite/PostgreSQL",
+          "purpose": "Structured data storage",
+          "score": 90
+        }
+      ],
+      "cloud_networks": [
+        {
+          "name": "Private GitHub",
+          "purpose": "Version control, private issue packets, and controlled PRs",
+          "score": 100
+        },
+        {
+          "name": "Private n8n",
+          "purpose": "Workflow automation with private webhook URLs and local commands",
+          "score": 90
+        },
+        {
+          "name": "OpenAI API",
+          "purpose": "AI processing with tiktoken",
+          "score": 90
+        },
+        {
+          "name": "Private Cloud Compute",
+          "purpose": "Scalable processing only after data-egress review",
+          "score": 70
+        }
+      ],
+      "diversification_strategy": {
+        "primary": "Local-first for data sovereignty",
+        "secondary": "Private GitHub for durable cross-project coordination",
+        "backup": "n8n automation only when workflow exports remain secret-free"
+      }
+    }
+  }
+}

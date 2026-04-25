@@ -60,8 +60,14 @@ Run agents locally:
 # Scan for repeated geometry signatures
 python scripts/geometry_pattern_agent.py
 
+# Score evidence quality, contradictions, and missing measurements
+python scripts/evidence_agent.py
+
 # Generate product concepts from matches
 python scripts/product_concept_agent.py
+
+# Check private GitHub posture, n8n readiness, and agent connectivity
+python scripts/captain_connectivity_.py
 
 # Full pipeline: export Excel -> Obsidian -> run agents
 python scripts/run_pipeline.py
@@ -74,7 +80,7 @@ Import the workflow JSON files from `n8n/workflows/` into your n8n instance:
 - `geomolecular-pattern-trigger.json` — webhook to trigger pattern scan
 - `geomolecular-product-concept.json` — webhook to trigger product concept generation
 
-Configure the Execute Command nodes to point to this project's directory.
+Both workflows run `python scripts/run_pipeline.py`, which now refreshes the captain connectivity report. Configure the Execute Command nodes to point to this project's directory, keep webhook URLs private, and review any new external egress node before import.
 
 ## Sky Net Connection
 

@@ -1,0 +1,232 @@
+{
+  "generated_at": "1777083413.8926587",
+  "harmonic_data": [
+    {
+      "id": "harmonic_geom_0",
+      "name": "Resonant Pocket 0",
+      "vector": [
+        0.26424754112709214,
+        0.7309221937984834,
+        0.22216712511113246,
+        0.6575546689791167,
+        0.8396539032753477,
+        0.8368650374709019,
+        0.20502617605681062,
+        0.6336160296949094
+      ],
+      "harmonic_freq": 951.7844638014283,
+      "biological_target": "enzyme",
+      "resonance_score": 0.3668346455921004,
+      "classification": "low_resonance",
+      "world_impact": "Limited enzyme affinity"
+    },
+    {
+      "id": "harmonic_geom_1",
+      "name": "Resonant Pocket 1",
+      "vector": [
+        0.8049840223046315,
+        0.3923627463224363,
+        0.5617816000224458,
+        0.8370731768424949,
+        0.5298844945354779,
+        0.9960024850623851,
+        0.7726859454040146,
+        0.5534763435339031
+      ],
+      "harmonic_freq": 930.5006214692584,
+      "biological_target": "dna",
+      "resonance_score": 0.4993020039070643,
+      "classification": "medium_resonance",
+      "world_impact": "Moderate dna interaction"
+    },
+    {
+      "id": "harmonic_geom_2",
+      "name": "Resonant Pocket 2",
+      "vector": [
+        0.5850992012875682,
+        0.011472846674777437,
+        0.3336442519051461,
+        0.6571623668011601,
+        0.9056281342408682,
+        0.8901699619999283,
+        0.864728134091897,
+        0.981774515432245
+      ],
+      "harmonic_freq": 733.5426133932172,
+      "biological_target": "protein",
+      "resonance_score": 0.5262317985681304,
+      "classification": "medium_resonance",
+      "world_impact": "Moderate protein interaction"
+    },
+    {
+      "id": "harmonic_geom_3",
+      "name": "Resonant Pocket 3",
+      "vector": [
+        0.9814074116228514,
+        0.8820947591483957,
+        0.26678707424876213,
+        0.24523986549037968,
+        0.95384608685165,
+        0.7472931560539494,
+        0.8336650901869663,
+        0.04367391065108017
+      ],
+      "harmonic_freq": 609.6581662399275,
+      "biological_target": "protein",
+      "resonance_score": 0.5047179897340706,
+      "classification": "medium_resonance",
+      "world_impact": "Moderate protein interaction"
+    },
+    {
+      "id": "harmonic_geom_4",
+      "name": "Resonant Pocket 4",
+      "vector": [
+        0.33537656929110216,
+        0.9119027325502448,
+        0.20259624914586782,
+        0.0022478708297726246,
+        0.07150277971103802,
+        0.7971594897240522,
+        0.6783847202644047,
+        0.9417457624695283
+      ],
+      "harmonic_freq": 119.96902390227288,
+      "biological_target": "protein",
+      "resonance_score": 0.37159514241679487,
+      "classification": "low_resonance",
+      "world_impact": "Limited protein affinity"
+    },
+    {
+      "id": "harmonic_geom_5",
+      "name": "Resonant Pocket 5",
+      "vector": [
+        0.10605157373663598,
+        0.5327075099179595,
+        0.007696853107307389,
+        0.07756661934246956,
+        0.5559599686323831,
+        0.5191080217078613,
+        0.40490874018203626,
+        0.29234672086352553
+      ],
+      "harmonic_freq": 570.7789391586871,
+      "biological_target": "dna",
+      "resonance_score": 0.1411352959247018,
+      "classification": "low_resonance",
+      "world_impact": "Limited dna affinity"
+    },
+    {
+      "id": "harmonic_geom_6",
+      "name": "Resonant Pocket 6",
+      "vector": [
+        0.55060538473834,
+        0.20193513104794147,
+        0.6774840409158157,
+        0.5333593663263266,
+        0.2833192453346207,
+        0.8035388275009078,
+        0.3124560160801855,
+        0.6964507238828787
+      ],
+      "harmonic_freq": 697.4292569877662,
+      "biological_target": "protein",
+      "resonance_score": 0.29950221763225593,
+      "classification": "low_resonance",
+      "world_impact": "Limited protein affinity"
+    },
+    {
+      "id": "harmonic_geom_7",
+      "name": "Resonant Pocket 7",
+      "vector": [
+        0.49717174059386626,
+        0.7960881156412711,
+        0.3675486142914264,
+        0.7424620059259398,
+        0.9843581436138726,
+        0.5654439652736697,
+        0.01551367694655692,
+        0.8133484004470127
+      ],
+      "harmonic_freq": 320.8421332420136,
+      "biological_target": "enzyme",
+      "resonance_score": 0.4397177461333749,
+      "classification": "medium_resonance",
+      "world_impact": "Moderate enzyme interaction"
+    },
+    {
+      "id": "harmonic_geom_8",
+      "name": "Resonant Pocket 8",
+      "vector": [
+        0.3699756211903368,
+        0.19519398758405881,
+        0.9268813540262766,
+        0.48266229978419917,
+        0.5493766399664199,
+        0.2585498052725703,
+        0.5752769980676766,
+        0.5228014841792267
+      ],
+      "harmonic_freq": 494.773711446378,
+      "biological_target": "enzyme",
+      "resonance_score": 0.27999778798146674,
+      "classification": "low_resonance",
+      "world_impact": "Limited enzyme affinity"
+    },
+    {
+      "id": "harmonic_geom_9",
+      "name": "Resonant Pocket 9",
+      "vector": [
+        0.4435573262557967,
+        0.9059935173285765,
+        0.25338186170904153,
+        0.04073893144203711,
+        0.8366770146859035,
+        0.040142914290619336,
+        0.7940179048195088,
+        0.3521750075791765
+      ],
+      "harmonic_freq": 357.8228168364258,
+      "biological_target": "enzyme",
+      "resonance_score": 0.31744511663794894,
+      "classification": "low_resonance",
+      "world_impact": "Limited enzyme affinity"
+    }
+  ],
+  "matches": {
+    "target_geometry": "target_molecule_1",
+    "target_resonance": 0.32499999999999996,
+    "matches": [
+      {
+        "harmonic_id": "harmonic_geom_9",
+        "similarity": 0.992445116637949,
+        "impact": "Limited enzyme affinity",
+        "biological": "enzyme"
+      },
+      {
+        "harmonic_id": "harmonic_geom_6",
+        "similarity": 0.974502217632256,
+        "impact": "Limited protein affinity",
+        "biological": "protein"
+      },
+      {
+        "harmonic_id": "harmonic_geom_0",
+        "similarity": 0.9581653544078996,
+        "impact": "Limited enzyme affinity",
+        "biological": "enzyme"
+      },
+      {
+        "harmonic_id": "harmonic_geom_8",
+        "similarity": 0.9549977879814668,
+        "impact": "Limited enzyme affinity",
+        "biological": "enzyme"
+      },
+      {
+        "harmonic_id": "harmonic_geom_4",
+        "similarity": 0.953404857583205,
+        "impact": "Limited protein affinity",
+        "biological": "protein"
+      }
+    ]
+  },
+  "quantum_status": "classical_fallback"
+}

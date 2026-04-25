@@ -3,7 +3,15 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from openpyxl import load_workbook
+from geomolecular_data import (
+    average,
+    average_source_reliability,
+    confidence_score,
+    has_meaningful_contradiction,
+    read_workbook,
+    split_ids,
+    validation_score,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKBOOK = ROOT / "data" / "geomolecular_template.xlsx"
@@ -11,43 +19,8 @@ VAULT = ROOT / "obsidian-vault"
 REPORT_DIR = VAULT / "Agent Reports"
 
 
-def clean(value: object) -> str:
-    if value is None:
-        return ""
-    return str(value).strip()
-
-
-def split_ids(value: str) -> list[str]:
-    return [part.strip() for part in value.split(",") if part.strip()]
-
-
-def read_sheet(workbook_path: Path, sheet_name: str) -> list[dict[str, str]]:
-    wb = load_workbook(workbook_path, data_only=True)
-    if sheet_name not in wb.sheetnames:
-        return []
-    ws = wb[sheet_name]
-    rows = list(ws.iter_rows(values_only=True))
-    if not rows:
-        return []
-    headers = [clean(h) for h in rows[0]]
-    records = []
-    for row in rows[1:]:
-        record = {headers[i]: clean(v) for i, v in enumerate(row) if i < len(headers)}
-        if any(record.values()):
-            records.append(record)
-    return records
-
-
 def load_records(workbook_path: Path) -> dict[str, list[dict[str, str]]]:
-    sheets = {
-        "GeometrySignatures",
-        "CandidateMaterials",
-        "Observations",
-        "BiologicalDefinitions",
-        "ProductIdeas",
-        "Sources",
-    }
-    return {s: read_sheet(workbook_path, s) for s in sheets}
+    return read_workbook(workbook_path)
 
 
 def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
@@ -55,11 +28,14 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
     candidates = records["CandidateMaterials"]
     observations = records["Observations"]
     existing_ideas = records["ProductIdeas"]
+    sources = records["Sources"]
 
     geo_by_id = {g["geometry_id"]: g for g in geometries if g.get("geometry_id")}
     cand_by_id = {c["candidate_id"]: c for c in candidates if c.get("candidate_id")}
+    sources_by_id = {s["source_id"]: s for s in sources if s.get("source_id")}
+    evidence_by_geo = _evidence_by_geometry(observations, sources_by_id)
 
-    concepts = []
+    concepts: list[dict] = []
 
     # Strategy 1: Candidates sharing the same geometry
     geo_to_candidates: dict[str, list[str]] = {}
@@ -82,10 +58,11 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
             "geometry_id": gid,
             "geometry_name": geo.get("geometry_name", gid),
             "candidate_names": names,
+            "evidence_score": evidence_by_geo.get(gid, 0.0),
             "concept_note": (
                 f"Candidates {names} all express geometry signature "
                 f"'{geo.get('geometry_name', gid)}'. "
-                f"Consider combining or comparing features across these candidates."
+                f"Compare features across these candidates and prioritize validation before claims."
             ),
         })
 
@@ -108,9 +85,10 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
                 "geometry_id": gid,
                 "geometry_name": geo.get("geometry_name", gid),
                 "candidate_names": [cand_by_id[c].get("name", c) for c in cands],
+                "evidence_score": evidence_by_geo.get(gid, 0.0),
                 "concept_note": (
                     f"Geometry '{geo.get('geometry_name', gid)}' has {count} observation(s) "
-                    f"but only {len(cands)} candidate(s). Consider searching for more candidates."
+                    f"but only {len(cands)} candidate(s). Add candidates and measurement controls."
                 ),
             })
 
@@ -131,13 +109,32 @@ def generate_concepts(records: dict[str, list[dict[str, str]]]) -> list[dict]:
                 "geometry_id": ",".join(geom_ids),
                 "geometry_name": ", ".join(geo_names),
                 "candidate_names": cand_names,
+                "evidence_score": average(evidence_by_geo.get(gid, 0.0) for gid in geom_ids),
                 "concept_note": (
                     f"Existing idea '{title}' is driven by geometries: {', '.join(geo_names)}. "
-                    f"Consider additional candidates that share these geometries."
+                    f"Extend only after evidence gaps and blocked claims are reviewed."
                 ),
             })
 
     return concepts
+
+
+def _evidence_by_geometry(
+    observations: list[dict[str, str]],
+    sources_by_id: dict[str, dict[str, str]],
+) -> dict[str, float]:
+    scores_by_geo: dict[str, list[float]] = {}
+    for observation in observations:
+        geometry_id = observation.get("geometry_id", "")
+        if not geometry_id:
+            continue
+        score = validation_score(
+            confidence_score(observation.get("confidence", "")),
+            average_source_reliability(observation.get("source_ids", ""), sources_by_id),
+            has_meaningful_contradiction(observation.get("contradiction", "")),
+        )
+        scores_by_geo.setdefault(geometry_id, []).append(score)
+    return {geometry_id: average(scores) for geometry_id, scores in scores_by_geo.items()}
 
 
 def render_report(concepts: list[dict]) -> str:
@@ -160,6 +157,7 @@ def render_report(concepts: list[dict]) -> str:
         lines.append("")
         lines.append(f"- Strategy: `{c['strategy']}`")
         lines.append(f"- Geometry: [[{c['geometry_name']}]] (`{c['geometry_id']}`)")
+        lines.append(f"- Evidence score: {c['evidence_score']}")
         lines.append("")
         lines.append("**Candidates:**")
         for name in c["candidate_names"]:

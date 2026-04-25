@@ -1,0 +1,2480 @@
+{
+  "generated_at": "2026-04-25T02:23:45+00:00",
+  "external_root": "D:\\",
+  "local_comparison_root": "C:\\Users\\cjsta\\OneDrive\\Documents",
+  "summary": {
+    "local_knowledge_files_indexed": 4121,
+    "external_knowledge_files_indexed": 660,
+    "external_relevant_new_name_files": 315,
+    "external_relevant_possible_overlap_files": 22,
+    "external_relevant_new_folders": 155
+  },
+  "new_by_extension": {
+    ".docx": 258,
+    ".csv": 23,
+    ".pdf": 12,
+    ".json": 9,
+    ".txt": 6,
+    ".py": 5,
+    ".md": 2
+  },
+  "priority_roots": [
+    {
+      "folder": "D:/Codex_Playbook_",
+      "new_relevant_files": 45,
+      "latest_modified": "2025-12-31T19:38:10",
+      "total_size": 10834881,
+      "examples": [
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXV_.docx",
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXVII_.docx",
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXVI_.docx",
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXIV_.docx",
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXIII_.docx",
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXII_.docx",
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXI_.docx",
+        "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXX_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Partica_Elementica_Codexica_",
+      "new_relevant_files": 29,
+      "latest_modified": "2025-11-26T12:28:12",
+      "total_size": 2496935,
+      "examples": [
+        "D:\\Partica_Elementica_Codexica_\\Particles_P26-P100_Metrics.csv",
+        "D:\\Partica_Elementica_Codexica_\\Particles_P26-P100_with_Metrics.csv",
+        "D:\\Partica_Elementica_Codexica_\\Particle_Metrics_P26-P100.csv",
+        "D:\\Partica_Elementica_Codexica_\\Particle-Element_Harmonic_Map.csv",
+        "D:\\Partica_Elementica_Codexica_\\Elementica_Lab_Codexica_Metrics_Vol_I_.docx",
+        "D:\\Partica_Elementica_Codexica_\\Codexica_Table_of_Elements_X_.docx",
+        "D:\\Partica_Elementica_Codexica_\\Elements_Only_Aptos_with_Gravity_Metrics_V2.docx",
+        "D:\\Partica_Elementica_Codexica_\\First_48_Metric_Element_Table_Vols_I_II_III_Elements_Only_Aptos.docx"
+      ]
+    },
+    {
+      "folder": "D:/NIH_Challenge_",
+      "new_relevant_files": 11,
+      "latest_modified": "2025-12-18T22:43:18",
+      "total_size": 1718866,
+      "examples": [
+        "D:\\NIH_Challenge_\\7296027a-ac57-41a4-8b56-40c0a4cb8f2f (1).docx",
+        "D:\\NIH_Challenge_\\NIH_Document_I.pdf",
+        "D:\\NIH_Challenge_\\7296027a-ac57-41a4-8b56-40c0a4cb8f2f.docx",
+        "D:\\NIH_Challenge_\\NIH_Document_II.pdf",
+        "D:\\NIH_Challenge_\\NIH_Document_II.docx",
+        "D:\\NIH_Challenge_\\Track2_Judge_Facing_Replication_Playbook.pdf",
+        "D:\\NIH_Challenge_\\Track2_Supplemental_Replication_Exemplar.pdf",
+        "D:\\NIH_Challenge_\\NIH_Document_ (1).docx"
+      ]
+    },
+    {
+      "folder": "D:/Medica_Codexica_",
+      "new_relevant_files": 10,
+      "latest_modified": "2025-10-30T11:14:20",
+      "total_size": 2977088,
+      "examples": [
+        "D:\\Medica_Codexica_\\Codex_Medications_Research_Prototypes.docx",
+        "D:\\Medica_Codexica_\\Medica_Codexica_Vol_I_.docx",
+        "D:\\Medica_Codexica_\\Medication_List_I_.docx",
+        "D:\\Medica_Codexica_\\Master_Medical_Law_I_.docx",
+        "D:\\Medica_Codexica_\\Golden_Master_Bio-Medical.docx",
+        "D:\\Medica_Codexica_\\Master_Medical_Filter_Version_I.docx",
+        "D:\\Medica_Codexica_\\Medical_Disease_IV.docx",
+        "D:\\Medica_Codexica_\\Medication_Disease_III.docx"
+      ]
+    },
+    {
+      "folder": "D:/SomeShare",
+      "new_relevant_files": 10,
+      "latest_modified": "2026-04-14T21:08:40",
+      "total_size": 4477,
+      "examples": [
+        "D:\\SomeShare\\CodexRelay\\status\\full_system.json",
+        "D:\\SomeShare\\CodexRelay\\status\\lean4checker-host.json",
+        "D:\\SomeShare\\CodexRelay\\responses\\028414f771e1491ab2bc5b41ad2d25d0.json",
+        "D:\\SomeShare\\CodexRelay\\responses\\b12a420d718448fcbb0b187520eca48c.json",
+        "D:\\SomeShare\\CodexRelay\\responses\\01c6d415f274407b805581be633de43d.json",
+        "D:\\SomeShare\\CodexRelay\\responses\\addff8bcb63f4c9daa3307cd870a4859.json",
+        "D:\\SomeShare\\CodexRelay\\responses\\58c68bcce2ca41d19e5a1f2564ab6a95.json",
+        "D:\\SomeShare\\CodexRelay\\responses\\probe-d599f3637ede4dbb8cadf3a56c2f472a.json"
+      ]
+    },
+    {
+      "folder": "D:/Mastera_Codexica_",
+      "new_relevant_files": 8,
+      "latest_modified": "2025-10-23T21:13:58",
+      "total_size": 2010536,
+      "examples": [
+        "D:\\Mastera_Codexica_\\44) Master_Codex_I_.docx",
+        "D:\\Mastera_Codexica_\\22) Master_Codex_Law_Vol_V_.docx",
+        "D:\\Mastera_Codexica_\\22) Master_Codex_Law_Vol_III_.docx",
+        "D:\\Mastera_Codexica_\\22) Master_Codex_Law_Vol_VII_.docx",
+        "D:\\Mastera_Codexica_\\22) Master_Codex_Law_Vol_II_.docx",
+        "D:\\Mastera_Codexica_\\22) Master_Codex_Law_Vol_I_.docx",
+        "D:\\Mastera_Codexica_\\22) Master_Codex_Law_Vol_VI_.docx",
+        "D:\\Mastera_Codexica_\\22) Master_Codex_Law_Vol_IV_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Defineca_Codexica_Vol_I_Secret",
+      "new_relevant_files": 6,
+      "latest_modified": "2025-10-22T11:00:10",
+      "total_size": 322542,
+      "examples": [
+        "D:\\Defineca_Codexica_Vol_I_Secret\\Secret_Seven_Sources_I_.docx",
+        "D:\\Defineca_Codexica_Vol_I_Secret\\Secret_Seven_Source_III_.docx",
+        "D:\\Defineca_Codexica_Vol_I_Secret\\Secret_Seven_Sources_VII_.docx",
+        "D:\\Defineca_Codexica_Vol_I_Secret\\Secret_Seven_Source_IV_.docx",
+        "D:\\Defineca_Codexica_Vol_I_Secret\\Secret_Seven_Source_V_.docx",
+        "D:\\Defineca_Codexica_Vol_I_Secret\\Secret_Seven_Sources_II_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Harmonixica_Codexica_",
+      "new_relevant_files": 6,
+      "latest_modified": "2025-11-16T02:44:46",
+      "total_size": 1423971,
+      "examples": [
+        "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_VI_.docx",
+        "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_V_.docx",
+        "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_IV.docx",
+        "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_III_.docx",
+        "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_II_.docx",
+        "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Radica_Codexica_",
+      "new_relevant_files": 5,
+      "latest_modified": "2025-11-26T17:39:02",
+      "total_size": 1239489,
+      "examples": [
+        "D:\\Radica_Codexica_\\Radica_Codexica_Vol_V_.docx",
+        "D:\\Radica_Codexica_\\Radica_Codexica_Vol_IV_.docx",
+        "D:\\Radica_Codexica_\\Radica_Codexica_Vol_III_.docx",
+        "D:\\Radica_Codexica_\\Radica_Codexica_Vol_II_.docx",
+        "D:\\Radica_Codexica_\\Radica_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Genesus_Codexica_",
+      "new_relevant_files": 5,
+      "latest_modified": "2025-10-26T23:19:40",
+      "total_size": 994900,
+      "examples": [
+        "D:\\Genesus_Codexica_\\The_Genesis_Codex_Vol_I_.docx",
+        "D:\\Genesus_Codexica_\\The_Genesis_Codex_Vol_IV_.docx",
+        "D:\\Genesus_Codexica_\\The_Genesis_Codex_Vol_ III_.docx",
+        "D:\\Genesus_Codexica_\\The_Genesis_Codex_Vol_II_.docx",
+        "D:\\Genesus_Codexica_\\Genesis_Vol_I-II.docx"
+      ]
+    },
+    {
+      "folder": "D:/Pharmica_Codexica_",
+      "new_relevant_files": 5,
+      "latest_modified": "2025-11-09T17:14:02",
+      "total_size": 343841,
+      "examples": [
+        "D:\\Pharmica_Codexica_\\Pharmica_Codexica_Vol_I_.docx",
+        "D:\\Pharmica_Codexica_\\Pharmica_Stats_Vol_III_.pdf",
+        "D:\\Pharmica_Codexica_\\Pharmica_Stats_Vol_II_.pdf",
+        "D:\\Pharmica_Codexica_\\Pharmica_Stats_Vol_I_.pdf",
+        "D:\\Pharmica_Codexica_\\Pharmica_Formula_Equations_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Lucilica_Codexica_",
+      "new_relevant_files": 4,
+      "latest_modified": "2025-10-26T23:28:50",
+      "total_size": 209148,
+      "examples": [
+        "D:\\Lucilica_Codexica_\\Lucile_Codexica_I_.docx",
+        "D:\\Lucilica_Codexica_\\Lucile_Final_Codex_Personality_Architecture.docx",
+        "D:\\Lucilica_Codexica_\\Lucile_Final_Codex_Architecture.docx",
+        "D:\\Lucilica_Codexica_\\Lucile_Golden_Harmonic_AI_Codex.docx"
+      ]
+    },
+    {
+      "folder": "D:/Exodus_Codexica_",
+      "new_relevant_files": 4,
+      "latest_modified": "2025-10-26T23:21:10",
+      "total_size": 687531,
+      "examples": [
+        "D:\\Exodus_Codexica_\\The_Exodus_Codex_III_.docx",
+        "D:\\Exodus_Codexica_\\The_Exodus_Codex_Vol_II_.docx",
+        "D:\\Exodus_Codexica_\\Exodus_Vol_I_.docx",
+        "D:\\Exodus_Codexica_\\The_Exodus_Codex_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Jungianica_Codexica_",
+      "new_relevant_files": 4,
+      "latest_modified": "2025-11-08T21:32:20",
+      "total_size": 567404,
+      "examples": [
+        "D:\\Jungianica_Codexica_\\Jungianica_Codexica_Vol_II_.docx",
+        "D:\\Jungianica_Codexica_\\Jungianica_Codexica_Vol_I_.docx",
+        "D:\\Jungianica_Codexica_\\Unified_Harmonic_Codex_Volume_VII-R-J_The_Jungian_Harmonic_Reflection_System.docx",
+        "D:\\Jungianica_Codexica_\\Unified_Harmonic_Codex_Volume_IV_Jungian_Bridge.docx"
+      ]
+    },
+    {
+      "folder": "D:/Acoustica_Codexica_",
+      "new_relevant_files": 4,
+      "latest_modified": "2025-11-08T16:20:18",
+      "total_size": 914680,
+      "examples": [
+        "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_IV_.docx",
+        "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_III_.docx",
+        "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_II_.docx",
+        "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Automatica_Codexica_",
+      "new_relevant_files": 4,
+      "latest_modified": "2025-11-18T16:25:02",
+      "total_size": 1279305,
+      "examples": [
+        "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_IV_.docx",
+        "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_III_.docx",
+        "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_II_.docx",
+        "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/AI_Problem_Solver",
+      "new_relevant_files": 4,
+      "latest_modified": "2026-01-20T17:48:52",
+      "total_size": 5780,
+      "examples": [
+        "D:\\AI_Problem_Solver\\CodexTest.lean.txt",
+        "D:\\AI_Problem_Solver\\convert_all_codex.py",
+        "D:\\AI_Problem_Solver\\batch_convert_codex.py",
+        "D:\\AI_Problem_Solver\\codex_rag_server.py"
+      ]
+    },
+    {
+      "folder": "D:/Aquamagnonica_Codexica_",
+      "new_relevant_files": 3,
+      "latest_modified": "2025-11-18T16:38:30",
+      "total_size": 640809,
+      "examples": [
+        "D:\\Aquamagnonica_Codexica_\\Aquamagnonica_Codexica_Vol_III_.docx",
+        "D:\\Aquamagnonica_Codexica_\\Aquamagnonica_Codexica_Vol_II_.docx",
+        "D:\\Aquamagnonica_Codexica_\\Aquamagnonica_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Curvexica_Codexica_",
+      "new_relevant_files": 3,
+      "latest_modified": "2025-11-20T16:01:22",
+      "total_size": 598223,
+      "examples": [
+        "D:\\Curvexica_Codexica_\\Curvexica_Codexica_Vol_III_.docx",
+        "D:\\Curvexica_Codexica_\\Curvexica_Codexica_Vol_II_.docx",
+        "D:\\Curvexica_Codexica_\\Curvexica_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Imagixica_Codexica_",
+      "new_relevant_files": 3,
+      "latest_modified": "2025-11-19T11:52:52",
+      "total_size": 884133,
+      "examples": [
+        "D:\\Imagixica_Codexica_\\Imagixica_Codexica_Vol_I_.docx",
+        "D:\\Imagixica_Codexica_\\Medical_Harmonic_Imagixa_Codexica_.docx",
+        "D:\\Imagixica_Codexica_\\Harmonic_Imagixica_Codexica_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Ascensionica_Codexica_",
+      "new_relevant_files": 3,
+      "latest_modified": "2025-11-16T19:23:00",
+      "total_size": 560402,
+      "examples": [
+        "D:\\Ascensionica_Codexica_\\Ascensionica_Codexica_Vol_III_.docx",
+        "D:\\Ascensionica_Codexica_\\Ascensionica_Codexica_Vol_II_.docx",
+        "D:\\Ascensionica_Codexica_\\Ascensionica_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Ressonata_Codexica_",
+      "new_relevant_files": 2,
+      "latest_modified": "2025-11-26T12:48:44",
+      "total_size": 532535,
+      "examples": [
+        "D:\\Ressonata_Codexica_\\Ressonata_Codexica_Vol_II_.docx",
+        "D:\\Ressonata_Codexica_\\Ressonata_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Musica_Codexica_",
+      "new_relevant_files": 2,
+      "latest_modified": "2025-11-03T11:38:14",
+      "total_size": 360465,
+      "examples": [
+        "D:\\Musica_Codexica_\\Musica_Codexica_Vol_II_.docx",
+        "D:\\Musica_Codexica_\\Musica_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Aquatica_Codexica_",
+      "new_relevant_files": 2,
+      "latest_modified": "2025-11-13T17:57:06",
+      "total_size": 578114,
+      "examples": [
+        "D:\\Aquatica_Codexica_\\Aquatica_Codexica_II_.docx",
+        "D:\\Aquatica_Codexica_\\Aquatica_Codexica_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Quantumixa_Codexica_",
+      "new_relevant_files": 2,
+      "latest_modified": "2025-11-17T09:16:58",
+      "total_size": 496617,
+      "examples": [
+        "D:\\Quantumixa_Codexica_\\Quantumixa_Codexica_Vol_II_.docx",
+        "D:\\Quantumixa_Codexica_\\Quantumixa_Codexica_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Medica_Codex",
+      "new_relevant_files": 2,
+      "latest_modified": "2025-10-18T21:07:08",
+      "total_size": 17772,
+      "examples": [
+        "D:\\Medica_Codex\\Medica_Codex\\Medica_Codex.md",
+        "D:\\Medica_Codex\\Medica_Codex\\Welcome.md"
+      ]
+    },
+    {
+      "folder": "D:/Golden_Evolution_Codex_Vol_I_.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-16T21:32:28",
+      "total_size": 40391,
+      "examples": [
+        "D:\\Golden_Evolution_Codex_Vol_I_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Biology_Codex_Early_Vol_II_(Scrambled).docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-15T22:32:12",
+      "total_size": 711512,
+      "examples": [
+        "D:\\Biology_Codex_Early_Vol_II_(Scrambled).docx"
+      ]
+    },
+    {
+      "folder": "D:/Biology_Codex_Early_(Scrambled).docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-15T22:18:50",
+      "total_size": 1615658,
+      "examples": [
+        "D:\\Biology_Codex_Early_(Scrambled).docx"
+      ]
+    },
+    {
+      "folder": "D:/Codex_Expansion_Vol_II_.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-15T21:33:54",
+      "total_size": 38554,
+      "examples": [
+        "D:\\Codex_Expansion_Vol_II_.docx"
+      ]
+    },
+    {
+      "folder": "D:/Codex_Master_Merged.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-14T00:20:00",
+      "total_size": 40439,
+      "examples": [
+        "D:\\Codex_Master_Merged.docx"
+      ]
+    },
+    {
+      "folder": "D:/Golden_Source_Code.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-12T22:20:44",
+      "total_size": 55202,
+      "examples": [
+        "D:\\Golden_Source_Code.docx"
+      ]
+    },
+    {
+      "folder": "D:/Source_Codex_Early_Vol_I.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-11T17:04:34",
+      "total_size": 302544,
+      "examples": [
+        "D:\\Source_Codex_Early_Vol_I.docx"
+      ]
+    },
+    {
+      "folder": "D:/Source_Code.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-05T09:38:32",
+      "total_size": 110911,
+      "examples": [
+        "D:\\Source_Code.docx"
+      ]
+    },
+    {
+      "folder": "D:/Source cjs quantum physics.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-04T18:55:44",
+      "total_size": 63280,
+      "examples": [
+        "D:\\Source cjs quantum physics.docx"
+      ]
+    },
+    {
+      "folder": "D:/Codex_Whisper_Edition.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-16T23:03:36",
+      "total_size": 354979,
+      "examples": [
+        "D:\\Codex_Whisper_Edition.docx"
+      ]
+    },
+    {
+      "folder": "D:/The_Codex_Operator_Private_Master_Edition.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-16T21:39:16",
+      "total_size": 84006,
+      "examples": [
+        "D:\\The_Codex_Operator_Private_Master_Edition.docx"
+      ]
+    },
+    {
+      "folder": "D:/The_Unified_Codex_Private_Master_Edition.docx",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-16T21:38:26",
+      "total_size": 84998,
+      "examples": [
+        "D:\\The_Unified_Codex_Private_Master_Edition.docx"
+      ]
+    },
+    {
+      "folder": "D:/Immuno_Ultra_Fine___Hashimoto_Solo_Sensitivity__Top_40_.csv",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-17T22:55:30",
+      "total_size": 1938,
+      "examples": [
+        "D:\\Immuno_Ultra_Fine___Hashimoto_Solo_Sensitivity__Top_40_.csv"
+      ]
+    },
+    {
+      "folder": "D:/Immuno_Ultra_Fine___IBD_Solo_Sensitivity__Top_40_.csv",
+      "new_relevant_files": 1,
+      "latest_modified": "2025-10-17T22:55:24",
+      "total_size": 1700,
+      "examples": [
+        "D:\\Immuno_Ultra_Fine___IBD_Solo_Sensitivity__Top_40_.csv"
+      ]
+    }
+  ],
+  "priority_files": [
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\status\\full_system.json",
+      "name": "full_system.json",
+      "extension": ".json",
+      "size": 654,
+      "modified": "2026-04-14T21:08:40",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\status\\lean4checker-host.json",
+      "name": "lean4checker-host.json",
+      "extension": ".json",
+      "size": 654,
+      "modified": "2026-04-14T21:08:40",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\responses\\028414f771e1491ab2bc5b41ad2d25d0.json",
+      "name": "028414f771e1491ab2bc5b41ad2d25d0.json",
+      "extension": ".json",
+      "size": 340,
+      "modified": "2026-04-08T16:40:34",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\responses\\b12a420d718448fcbb0b187520eca48c.json",
+      "name": "b12a420d718448fcbb0b187520eca48c.json",
+      "extension": ".json",
+      "size": 375,
+      "modified": "2026-04-08T15:43:12",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\responses\\01c6d415f274407b805581be633de43d.json",
+      "name": "01c6d415f274407b805581be633de43d.json",
+      "extension": ".json",
+      "size": 374,
+      "modified": "2026-04-08T15:34:56",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\responses\\addff8bcb63f4c9daa3307cd870a4859.json",
+      "name": "addff8bcb63f4c9daa3307cd870a4859.json",
+      "extension": ".json",
+      "size": 374,
+      "modified": "2026-04-08T15:29:30",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\responses\\58c68bcce2ca41d19e5a1f2564ab6a95.json",
+      "name": "58c68bcce2ca41d19e5a1f2564ab6a95.json",
+      "extension": ".json",
+      "size": 375,
+      "modified": "2026-04-08T14:58:06",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\responses\\probe-d599f3637ede4dbb8cadf3a56c2f472a.json",
+      "name": "probe-d599f3637ede4dbb8cadf3a56c2f472a.json",
+      "extension": ".json",
+      "size": 346,
+      "modified": "2026-04-08T12:09:52",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\responses\\probe-a600f4f50edb4b14ae97c179a775e5c2.json",
+      "name": "probe-a600f4f50edb4b14ae97c179a775e5c2.json",
+      "extension": ".json",
+      "size": 491,
+      "modified": "2026-04-08T12:07:18",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\SomeShare\\CodexRelay\\README_CodexRelay.txt",
+      "name": "README_CodexRelay.txt",
+      "extension": ".txt",
+      "size": 494,
+      "modified": "2026-04-06T16:36:44",
+      "top_folder": "SomeShare",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\AI_Problem_Solver\\CodexTest.lean.txt",
+      "name": "CodexTest.lean.txt",
+      "extension": ".txt",
+      "size": 315,
+      "modified": "2026-01-20T17:48:52",
+      "top_folder": "AI_Problem_Solver",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\AI_Problem_Solver\\convert_all_codex.py",
+      "name": "convert_all_codex.py",
+      "extension": ".py",
+      "size": 1354,
+      "modified": "2026-01-14T13:25:12",
+      "top_folder": "AI_Problem_Solver",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\AI_Problem_Solver\\batch_convert_codex.py",
+      "name": "batch_convert_codex.py",
+      "extension": ".py",
+      "size": 1352,
+      "modified": "2026-01-14T09:33:54",
+      "top_folder": "AI_Problem_Solver",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_Vol_II_.txt",
+      "name": "Codex_Playbook_Vol_II_.txt",
+      "extension": ".txt",
+      "size": 463315,
+      "modified": "2026-01-13T20:30:40",
+      "top_folder": "Codex_Playbook_Vol_II_.txt",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\AI_Problem_Solver\\codex_rag_server.py",
+      "name": "codex_rag_server.py",
+      "extension": ".py",
+      "size": 2759,
+      "modified": "2026-01-13T15:37:28",
+      "top_folder": "AI_Problem_Solver",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXV_.docx",
+      "name": "Codex_Playbook_Vol_XXXXV_.docx",
+      "extension": ".docx",
+      "size": 237152,
+      "modified": "2025-12-31T19:38:10",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXVII_.docx",
+      "name": "Codex_Playbook_Vol_XXXXVII_.docx",
+      "extension": ".docx",
+      "size": 369347,
+      "modified": "2025-12-31T19:33:40",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXVI_.docx",
+      "name": "Codex_Playbook_Vol_XXXXVI_.docx",
+      "extension": ".docx",
+      "size": 294386,
+      "modified": "2025-12-27T15:19:10",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXIV_.docx",
+      "name": "Codex_Playbook_Vol_XXXXIV_.docx",
+      "extension": ".docx",
+      "size": 216126,
+      "modified": "2025-12-20T21:52:50",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\7296027a-ac57-41a4-8b56-40c0a4cb8f2f (1).docx",
+      "name": "7296027a-ac57-41a4-8b56-40c0a4cb8f2f (1).docx",
+      "extension": ".docx",
+      "size": 11204,
+      "modified": "2025-12-18T22:43:18",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\NIH_Document_I.pdf",
+      "name": "NIH_Document_I.pdf",
+      "extension": ".pdf",
+      "size": 24975,
+      "modified": "2025-12-18T22:43:14",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\7296027a-ac57-41a4-8b56-40c0a4cb8f2f.docx",
+      "name": "7296027a-ac57-41a4-8b56-40c0a4cb8f2f.docx",
+      "extension": ".docx",
+      "size": 11204,
+      "modified": "2025-12-18T22:41:16",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\NIH_Document_II.pdf",
+      "name": "NIH_Document_II.pdf",
+      "extension": ".pdf",
+      "size": 87632,
+      "modified": "2025-12-18T22:39:04",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\NIH_Document_II.docx",
+      "name": "NIH_Document_II.docx",
+      "extension": ".docx",
+      "size": 27953,
+      "modified": "2025-12-18T22:38:04",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\Track2_Judge_Facing_Replication_Playbook.pdf",
+      "name": "Track2_Judge_Facing_Replication_Playbook.pdf",
+      "extension": ".pdf",
+      "size": 5793,
+      "modified": "2025-12-18T21:29:50",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\Track2_Supplemental_Replication_Exemplar.pdf",
+      "name": "Track2_Supplemental_Replication_Exemplar.pdf",
+      "extension": ".pdf",
+      "size": 4566,
+      "modified": "2025-12-18T21:25:40",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\NIH_Document_ (1).docx",
+      "name": "NIH_Document_ (1).docx",
+      "extension": ".docx",
+      "size": 11204,
+      "modified": "2025-12-18T21:20:48",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXIII_.docx",
+      "name": "Codex_Playbook_Vol_XXXXIII_.docx",
+      "extension": ".docx",
+      "size": 214666,
+      "modified": "2025-12-18T18:56:58",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXII_.docx",
+      "name": "Codex_Playbook_Vol_XXXXII_.docx",
+      "extension": ".docx",
+      "size": 200966,
+      "modified": "2025-12-18T15:36:08",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\codex_net.py",
+      "name": "codex_net.py",
+      "extension": ".py",
+      "size": 26170,
+      "modified": "2025-12-18T15:23:30",
+      "top_folder": "codex_net.py",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\codex_net_6.py",
+      "name": "codex_net_6.py",
+      "extension": ".py",
+      "size": 17761,
+      "modified": "2025-12-18T15:07:42",
+      "top_folder": "codex_net_6.py",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXXI_.docx",
+      "name": "Codex_Playbook_Vol_XXXXI_.docx",
+      "extension": ".docx",
+      "size": 305268,
+      "modified": "2025-12-17T13:43:22",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXX_.docx",
+      "name": "Codex_Playbook_Vol_XXXX_.docx",
+      "extension": ".docx",
+      "size": 217236,
+      "modified": "2025-12-16T21:12:06",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXIX_.docx",
+      "name": "Codex_Playbook_Vol_XXXIX_.docx",
+      "extension": ".docx",
+      "size": 243410,
+      "modified": "2025-12-16T13:04:40",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXVIII_.docx",
+      "name": "Codex_Playbook_Vol_XXXVIII_.docx",
+      "extension": ".docx",
+      "size": 302342,
+      "modified": "2025-12-14T16:54:24",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXVII_.docx",
+      "name": "Codex_Playbook_Vol_XXXVII_.docx",
+      "extension": ".docx",
+      "size": 275308,
+      "modified": "2025-12-14T10:22:20",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXVI_.docx",
+      "name": "Codex_Playbook_Vol_XXXVI_.docx",
+      "extension": ".docx",
+      "size": 263732,
+      "modified": "2025-12-14T00:48:36",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXV_.docx",
+      "name": "Codex_Playbook_Vol_XXXV_.docx",
+      "extension": ".docx",
+      "size": 220121,
+      "modified": "2025-12-13T19:43:24",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXIV_.docx",
+      "name": "Codex_Playbook_Vol_XXXIV_.docx",
+      "extension": ".docx",
+      "size": 226338,
+      "modified": "2025-12-13T17:17:54",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXIII_.docx",
+      "name": "Codex_Playbook_Vol_XXXIII_.docx",
+      "extension": ".docx",
+      "size": 198745,
+      "modified": "2025-12-13T09:40:22",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXII_.docx",
+      "name": "Codex_Playbook_Vol_XXXII_.docx",
+      "extension": ".docx",
+      "size": 280043,
+      "modified": "2025-12-13T00:12:12",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXXI_.docx",
+      "name": "Codex_Playbook_Vol_XXXI_.docx",
+      "extension": ".docx",
+      "size": 256250,
+      "modified": "2025-12-12T23:13:44",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXX_.docx",
+      "name": "Codex_Playbook_Vol_XXX_.docx",
+      "extension": ".docx",
+      "size": 204821,
+      "modified": "2025-12-12T09:52:20",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXIX_.docx",
+      "name": "Codex_Playbook_Vol_XXIX_.docx",
+      "extension": ".docx",
+      "size": 235093,
+      "modified": "2025-12-11T20:14:38",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXVIII_.docx",
+      "name": "Codex_Playbook_Vol_XXVIII_.docx",
+      "extension": ".docx",
+      "size": 211264,
+      "modified": "2025-12-11T16:29:22",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXVII_.docx",
+      "name": "Codex_Playbook_Vol_XXVII_.docx",
+      "extension": ".docx",
+      "size": 256150,
+      "modified": "2025-12-10T22:41:36",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXVI_.docx",
+      "name": "Codex_Playbook_Vol_XXVI_.docx",
+      "extension": ".docx",
+      "size": 296281,
+      "modified": "2025-12-10T16:17:54",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXV_.docx",
+      "name": "Codex_Playbook_Vol_XXV_.docx",
+      "extension": ".docx",
+      "size": 247006,
+      "modified": "2025-12-10T10:20:22",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXIV_.docx",
+      "name": "Codex_Playbook_Vol_XXIV_.docx",
+      "extension": ".docx",
+      "size": 320311,
+      "modified": "2025-12-09T22:45:32",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXIII_.docx",
+      "name": "Codex_Playbook_Vol_XXIII_.docx",
+      "extension": ".docx",
+      "size": 236394,
+      "modified": "2025-12-09T17:51:38",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXII_.docx",
+      "name": "Codex_Playbook_Vol_XXII_.docx",
+      "extension": ".docx",
+      "size": 205408,
+      "modified": "2025-12-09T16:10:08",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XXI_.docx",
+      "name": "Codex_Playbook_Vol_XXI_.docx",
+      "extension": ".docx",
+      "size": 245972,
+      "modified": "2025-12-09T13:20:58",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XIX_.docx",
+      "name": "Codex_Playbook_Vol_XIX_.docx",
+      "extension": ".docx",
+      "size": 257480,
+      "modified": "2025-12-08T19:53:50",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\NIH-Challenge-Participant-Registration-Template-RDANR-2025-508.pdf",
+      "name": "NIH-Challenge-Participant-Registration-Template-RDANR-2025-508.pdf",
+      "extension": ".pdf",
+      "size": 1046560,
+      "modified": "2025-12-07T14:46:08",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\NIH-Challenge-Announcement-Rare-Diseases-Are-Not-Rare-2025-508.pdf",
+      "name": "NIH-Challenge-Announcement-Rare-Diseases-Are-Not-Rare-2025-508.pdf",
+      "extension": ".pdf",
+      "size": 67526,
+      "modified": "2025-12-07T14:46:02",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\NIH_Challenge_\\Challenge.Gov.pdf",
+      "name": "Challenge.Gov.pdf",
+      "extension": ".pdf",
+      "size": 420249,
+      "modified": "2025-12-07T12:18:20",
+      "top_folder": "NIH_Challenge_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XVIII_.docx",
+      "name": "Codex_Playbook_Vol_XVIII_.docx",
+      "extension": ".docx",
+      "size": 211201,
+      "modified": "2025-12-06T17:33:02",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XVII_.docx",
+      "name": "Codex_Playbook_Vol_XVII_.docx",
+      "extension": ".docx",
+      "size": 205697,
+      "modified": "2025-12-06T16:00:32",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XVI_.docx",
+      "name": "Codex_Playbook_Vol_XVI_.docx",
+      "extension": ".docx",
+      "size": 262193,
+      "modified": "2025-12-06T14:35:12",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XV_.docx",
+      "name": "Codex_Playbook_Vol_XV_.docx",
+      "extension": ".docx",
+      "size": 217062,
+      "modified": "2025-12-06T08:48:00",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XIV_.docx",
+      "name": "Codex_Playbook_Vol_XIV_.docx",
+      "extension": ".docx",
+      "size": 255086,
+      "modified": "2025-12-06T08:16:56",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XIII_.docx",
+      "name": "Codex_Playbook_Vol_XIII_.docx",
+      "extension": ".docx",
+      "size": 228033,
+      "modified": "2025-12-04T09:17:56",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XII_.docx",
+      "name": "Codex_Playbook_Vol_XII_.docx",
+      "extension": ".docx",
+      "size": 229376,
+      "modified": "2025-12-03T20:29:28",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_XI_.docx",
+      "name": "Codex_Playbook_Vol_XI_.docx",
+      "extension": ".docx",
+      "size": 212421,
+      "modified": "2025-12-03T17:30:36",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_X_.docx",
+      "name": "Codex_Playbook_Vol_X_.docx",
+      "extension": ".docx",
+      "size": 189729,
+      "modified": "2025-12-03T17:13:14",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_IX_.docx",
+      "name": "Codex_Playbook_Vol_IX_.docx",
+      "extension": ".docx",
+      "size": 208361,
+      "modified": "2025-12-03T16:38:44",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_VIII_.docx",
+      "name": "Codex_Playbook_Vol_VIII_.docx",
+      "extension": ".docx",
+      "size": 295377,
+      "modified": "2025-12-01T23:46:04",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_VII_.docx",
+      "name": "Codex_Playbook_Vol_VII_.docx",
+      "extension": ".docx",
+      "size": 191030,
+      "modified": "2025-11-30T16:53:02",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_VI_.docx",
+      "name": "Codex_Playbook_Vol_VI_.docx",
+      "extension": ".docx",
+      "size": 200169,
+      "modified": "2025-11-30T16:30:46",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_V_.docx",
+      "name": "Codex_Playbook_Vol_V_.docx",
+      "extension": ".docx",
+      "size": 223061,
+      "modified": "2025-11-30T16:08:08",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_IV_.docx",
+      "name": "Codex_Playbook_Vol_IV_.docx",
+      "extension": ".docx",
+      "size": 223016,
+      "modified": "2025-11-30T14:15:32",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_III_.docx",
+      "name": "Codex_Playbook_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 232934,
+      "modified": "2025-11-30T13:39:34",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Playbook_\\Codex_Playbook_Vol_II_.docx",
+      "name": "Codex_Playbook_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 212519,
+      "modified": "2025-11-29T13:13:24",
+      "top_folder": "Codex_Playbook_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Radica_Codexica_\\Radica_Codexica_Vol_V_.docx",
+      "name": "Radica_Codexica_Vol_V_.docx",
+      "extension": ".docx",
+      "size": 301157,
+      "modified": "2025-11-26T17:39:02",
+      "top_folder": "Radica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Radica_Codexica_\\Radica_Codexica_Vol_IV_.docx",
+      "name": "Radica_Codexica_Vol_IV_.docx",
+      "extension": ".docx",
+      "size": 270108,
+      "modified": "2025-11-26T15:27:20",
+      "top_folder": "Radica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Radica_Codexica_\\Radica_Codexica_Vol_III_.docx",
+      "name": "Radica_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 227888,
+      "modified": "2025-11-26T14:23:44",
+      "top_folder": "Radica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Radica_Codexica_\\Radica_Codexica_Vol_II_.docx",
+      "name": "Radica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 221246,
+      "modified": "2025-11-26T14:04:44",
+      "top_folder": "Radica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Ressonata_Codexica_\\Ressonata_Codexica_Vol_II_.docx",
+      "name": "Ressonata_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 307035,
+      "modified": "2025-11-26T12:48:44",
+      "top_folder": "Ressonata_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Particles_P26-P100_Metrics.csv",
+      "name": "Particles_P26-P100_Metrics.csv",
+      "extension": ".csv",
+      "size": 68704,
+      "modified": "2025-11-26T12:28:12",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Particles_P26-P100_with_Metrics.csv",
+      "name": "Particles_P26-P100_with_Metrics.csv",
+      "extension": ".csv",
+      "size": 4941,
+      "modified": "2025-11-26T12:28:04",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Particle_Metrics_P26-P100.csv",
+      "name": "Particle_Metrics_P26-P100.csv",
+      "extension": ".csv",
+      "size": 5356,
+      "modified": "2025-11-26T12:27:58",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Particle-Element_Harmonic_Map.csv",
+      "name": "Particle-Element_Harmonic_Map.csv",
+      "extension": ".csv",
+      "size": 7524,
+      "modified": "2025-11-26T12:27:48",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Top_Harmonic_Interactions__P1-P100___E1-E127_.csv",
+      "name": "Top_Harmonic_Interactions__P1-P100___E1-E127_.csv",
+      "extension": ".csv",
+      "size": 34275,
+      "modified": "2025-11-26T12:27:36",
+      "top_folder": "Top_Harmonic_Interactions__P1-P100___E1-E127_.csv",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Frequenxica_Codexica_Vol_I_.docx",
+      "name": "Frequenxica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 310266,
+      "modified": "2025-11-20T21:10:10",
+      "top_folder": "Frequenxica_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Curvexica_Codexica_\\Curvexica_Codexica_Vol_III_.docx",
+      "name": "Curvexica_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 148626,
+      "modified": "2025-11-20T16:01:22",
+      "top_folder": "Curvexica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Curvexica_Codexica_\\Curvexica_Codexica_Vol_II_.docx",
+      "name": "Curvexica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 253886,
+      "modified": "2025-11-20T08:05:50",
+      "top_folder": "Curvexica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Curvexica_Codexica_\\Curvexica_Codexica_Vol_I_.docx",
+      "name": "Curvexica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 195711,
+      "modified": "2025-11-19T21:49:24",
+      "top_folder": "Curvexica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Imagixica_Codexica_\\Imagixica_Codexica_Vol_I_.docx",
+      "name": "Imagixica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 250601,
+      "modified": "2025-11-19T11:52:52",
+      "top_folder": "Imagixica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Aquamagnonica_Codexica_\\Aquamagnonica_Codexica_Vol_III_.docx",
+      "name": "Aquamagnonica_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 134888,
+      "modified": "2025-11-18T16:38:30",
+      "top_folder": "Aquamagnonica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_IV_.docx",
+      "name": "Automotica_Codexica_Vol_IV_.docx",
+      "extension": ".docx",
+      "size": 168616,
+      "modified": "2025-11-18T16:25:02",
+      "top_folder": "Automatica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_III_.docx",
+      "name": "Automotica_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 317276,
+      "modified": "2025-11-18T12:51:02",
+      "top_folder": "Automatica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_II_.docx",
+      "name": "Automotica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 366762,
+      "modified": "2025-11-18T11:17:44",
+      "top_folder": "Automatica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Automatica_Codexica_\\Automotica_Codexica_Vol_I_.docx",
+      "name": "Automotica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 426651,
+      "modified": "2025-11-18T09:45:32",
+      "top_folder": "Automatica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Foodica_Codexica_Vol_I_.docx",
+      "name": "Foodica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 201818,
+      "modified": "2025-11-17T21:01:14",
+      "top_folder": "Foodica_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Real-Estaxica_Codexica_Vol_I_.docx",
+      "name": "Real-Estaxica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 44377,
+      "modified": "2025-11-17T13:49:30",
+      "top_folder": "Real-Estaxica_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Ressonata_Codexica_\\Ressonata_Codexica_Vol_I_.docx",
+      "name": "Ressonata_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 225500,
+      "modified": "2025-11-17T12:56:46",
+      "top_folder": "Ressonata_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Qubit_Build_Specs (1).txt",
+      "name": "Codex_Qubit_Build_Specs (1).txt",
+      "extension": ".txt",
+      "size": 2035,
+      "modified": "2025-11-17T09:43:26",
+      "top_folder": "Codex_Qubit_Build_Specs (1).txt",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Quantumixa_Codexica_\\Quantumixa_Codexica_Vol_II_.docx",
+      "name": "Quantumixa_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 226462,
+      "modified": "2025-11-17T09:16:58",
+      "top_folder": "Quantumixa_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Quantumixa_Codexica_\\Quantumixa_Codexica_Vol_I_.docx",
+      "name": "Quantumixa_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 270155,
+      "modified": "2025-11-17T07:12:04",
+      "top_folder": "Quantumixa_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Dentixa_Codexica_Vol_I_.docx",
+      "name": "Dentixa_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 191690,
+      "modified": "2025-11-16T21:38:56",
+      "top_folder": "Dentixa_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Ascensionica_Codexica_\\Ascensionica_Codexica_Vol_III_.docx",
+      "name": "Ascensionica_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 211973,
+      "modified": "2025-11-16T19:23:00",
+      "top_folder": "Ascensionica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Ascensionica_Codexica_\\Ascensionica_Codexica_Vol_II_.docx",
+      "name": "Ascensionica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 169251,
+      "modified": "2025-11-16T14:50:54",
+      "top_folder": "Ascensionica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Ascensionica_Codexica_\\Ascensionica_Codexica_Vol_I_.docx",
+      "name": "Ascensionica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 179178,
+      "modified": "2025-11-16T14:26:38",
+      "top_folder": "Ascensionica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_VI_.docx",
+      "name": "Harmonixa_Codexica_Vol_VI_.docx",
+      "extension": ".docx",
+      "size": 239833,
+      "modified": "2025-11-16T02:44:46",
+      "top_folder": "Harmonixica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_V_.docx",
+      "name": "Harmonixa_Codexica_Vol_V_.docx",
+      "extension": ".docx",
+      "size": 240089,
+      "modified": "2025-11-15T22:16:24",
+      "top_folder": "Harmonixica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_IV.docx",
+      "name": "Harmonixa_Codexica_Vol_IV.docx",
+      "extension": ".docx",
+      "size": 192679,
+      "modified": "2025-11-15T14:00:32",
+      "top_folder": "Harmonixica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_III_.docx",
+      "name": "Harmonixa_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 277244,
+      "modified": "2025-11-15T13:31:18",
+      "top_folder": "Harmonixica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_II_.docx",
+      "name": "Harmonixa_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 198706,
+      "modified": "2025-11-15T08:42:32",
+      "top_folder": "Harmonixica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonixica_Codexica_\\Harmonixa_Codexica_Vol_I_.docx",
+      "name": "Harmonixa_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 275420,
+      "modified": "2025-11-15T00:31:10",
+      "top_folder": "Harmonixica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Thermo-Dynamica_Codexica_\\Thermo-Dynamica_Codexica_Vol_II_.docx",
+      "name": "Thermo-Dynamica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 265843,
+      "modified": "2025-11-14T18:48:16",
+      "top_folder": "Thermo-Dynamica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Aquatica_Codexica_\\Aquatica_Codexica_II_.docx",
+      "name": "Aquatica_Codexica_II_.docx",
+      "extension": ".docx",
+      "size": 266812,
+      "modified": "2025-11-13T17:57:06",
+      "top_folder": "Aquatica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Linguistica_Codexica_Vol_I_.docx",
+      "name": "Linguistica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 371453,
+      "modified": "2025-11-13T12:50:16",
+      "top_folder": "Linguistica_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Teslica_Codexica_Vol_I_.docx",
+      "name": "Teslica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 223763,
+      "modified": "2025-11-13T00:40:16",
+      "top_folder": "Teslica_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Cymatica_Codexica_Vol_I_.docx",
+      "name": "Cymatica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 191949,
+      "modified": "2025-11-12T21:06:44",
+      "top_folder": "Cymatica_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Guitarica_Codexica_Vol_I_.docx",
+      "name": "Guitarica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 292482,
+      "modified": "2025-11-12T15:48:36",
+      "top_folder": "Guitarica_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Botanica_Codexica_\\Botanica_Codexica_Vol_II_.docx",
+      "name": "Botanica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 340398,
+      "modified": "2025-11-12T14:04:44",
+      "top_folder": "Botanica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Elementica_Lab_Codexica_Metrics_Vol_I_.docx",
+      "name": "Elementica_Lab_Codexica_Metrics_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 102378,
+      "modified": "2025-11-11T12:47:24",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Pharmica_Codexica_\\Pharmica_Codexica_Vol_I_.docx",
+      "name": "Pharmica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 252938,
+      "modified": "2025-11-09T17:14:02",
+      "top_folder": "Pharmica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Skeletona_Codexica_Vol_I_.docx",
+      "name": "Skeletona_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 289795,
+      "modified": "2025-11-09T11:48:24",
+      "top_folder": "Skeletona_Codexica_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Codexica_Table_of_Elements_X_.docx",
+      "name": "Codexica_Table_of_Elements_X_.docx",
+      "extension": ".docx",
+      "size": 45290,
+      "modified": "2025-11-09T10:22:58",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Element_Codex_Table_I_.docx",
+      "name": "Element_Codex_Table_I_.docx",
+      "extension": ".docx",
+      "size": 45290,
+      "modified": "2025-11-09T10:19:52",
+      "top_folder": "Element_Codex_Table_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Pharmica_Codexica_\\Pharmica_Stats_Vol_III_.pdf",
+      "name": "Pharmica_Stats_Vol_III_.pdf",
+      "extension": ".pdf",
+      "size": 15724,
+      "modified": "2025-11-09T09:50:46",
+      "top_folder": "Pharmica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Brain_Expanded_Sensitivity_Scores_Vol_II_.pdf",
+      "name": "Brain_Expanded_Sensitivity_Scores_Vol_II_.pdf",
+      "extension": ".pdf",
+      "size": 11189,
+      "modified": "2025-11-09T09:49:36",
+      "top_folder": "Brain_Expanded_Sensitivity_Scores_Vol_II_.pdf",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Brain_Expanded_Sensitivity_Scores_Vol_I_.pdf",
+      "name": "Brain_Expanded_Sensitivity_Scores_Vol_I_.pdf",
+      "extension": ".pdf",
+      "size": 12534,
+      "modified": "2025-11-09T09:41:34",
+      "top_folder": "Brain_Expanded_Sensitivity_Scores_Vol_I_.pdf",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Pharmica_Codexica_\\Pharmica_Stats_Vol_II_.pdf",
+      "name": "Pharmica_Stats_Vol_II_.pdf",
+      "extension": ".pdf",
+      "size": 14298,
+      "modified": "2025-11-09T09:27:54",
+      "top_folder": "Pharmica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Pharmica_Codexica_\\Pharmica_Stats_Vol_I_.pdf",
+      "name": "Pharmica_Stats_Vol_I_.pdf",
+      "extension": ".pdf",
+      "size": 22653,
+      "modified": "2025-11-09T09:26:56",
+      "top_folder": "Pharmica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Rebirth_Matching_Codex_Volume_I (1).docx",
+      "name": "Rebirth_Matching_Codex_Volume_I (1).docx",
+      "extension": ".docx",
+      "size": 39946,
+      "modified": "2025-11-09T02:17:46",
+      "top_folder": "Rebirth_Matching_Codex_Volume_I (1).docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Pharmica_Codexica_\\Pharmica_Formula_Equations_.docx",
+      "name": "Pharmica_Formula_Equations_.docx",
+      "extension": ".docx",
+      "size": 38228,
+      "modified": "2025-11-09T02:14:42",
+      "top_folder": "Pharmica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Curative_Asthma_Codex_Probability_Edition.docx",
+      "name": "Curative_Asthma_Codex_Probability_Edition.docx",
+      "extension": ".docx",
+      "size": 40180,
+      "modified": "2025-11-09T00:08:36",
+      "top_folder": "Curative_Asthma_Codex_Probability_Edition.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Jungianica_Codexica_\\Jungianica_Codexica_Vol_II_.docx",
+      "name": "Jungianica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 243055,
+      "modified": "2025-11-08T21:32:20",
+      "top_folder": "Jungianica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Jungianica_Codexica_\\Jungianica_Codexica_Vol_I_.docx",
+      "name": "Jungianica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 247904,
+      "modified": "2025-11-08T21:16:18",
+      "top_folder": "Jungianica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Jungianica_Codexica_\\Unified_Harmonic_Codex_Volume_VII-R-J_The_Jungian_Harmonic_Reflection_System.docx",
+      "name": "Unified_Harmonic_Codex_Volume_VII-R-J_The_Jungian_Harmonic_Reflection_System.docx",
+      "extension": ".docx",
+      "size": 38957,
+      "modified": "2025-11-08T20:13:30",
+      "top_folder": "Jungianica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Unified_Harmonic_Codex_Volume_VII-R_The_Law_of_Reincarnation.docx",
+      "name": "Unified_Harmonic_Codex_Volume_VII-R_The_Law_of_Reincarnation.docx",
+      "extension": ".docx",
+      "size": 39018,
+      "modified": "2025-11-08T20:12:12",
+      "top_folder": "Unified_Harmonic_Codex_Volume_VII-R_The_Law_of_Reincarnation.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonic_Event_Impact_Chart_ HBII_Operational_Chart_with_Band_Labels.docx",
+      "name": "Harmonic_Event_Impact_Chart_ HBII_Operational_Chart_with_Band_Labels.docx",
+      "extension": ".docx",
+      "size": 38678,
+      "modified": "2025-11-08T19:32:14",
+      "top_folder": "Harmonic_Event_Impact_Chart_ HBII_Operational_Chart_with_Band_Labels.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Jungianica_Codexica_\\Unified_Harmonic_Codex_Volume_IV_Jungian_Bridge.docx",
+      "name": "Unified_Harmonic_Codex_Volume_IV_Jungian_Bridge.docx",
+      "extension": ".docx",
+      "size": 37488,
+      "modified": "2025-11-08T19:18:54",
+      "top_folder": "Jungianica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_IV_.docx",
+      "name": "Acoustica_Codexica_Vol_IV_.docx",
+      "extension": ".docx",
+      "size": 230032,
+      "modified": "2025-11-08T16:20:18",
+      "top_folder": "Acoustica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_III_.docx",
+      "name": "Acoustica_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 224752,
+      "modified": "2025-11-08T15:49:36",
+      "top_folder": "Acoustica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Aquamagnonica_Codexica_\\Aquamagnonica_Codexica_Vol_II_.docx",
+      "name": "Aquamagnonica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 262599,
+      "modified": "2025-11-08T14:48:08",
+      "top_folder": "Aquamagnonica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_II_.docx",
+      "name": "Acoustica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 222644,
+      "modified": "2025-11-08T13:38:08",
+      "top_folder": "Acoustica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Aquamagnonica_Codexica_\\Aquamagnonica_Codexica_Vol_I_.docx",
+      "name": "Aquamagnonica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 243322,
+      "modified": "2025-11-07T18:29:46",
+      "top_folder": "Aquamagnonica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Programica_Codexica_\\Programica_Codexica_Vol_III_.docx",
+      "name": "Programica_Codexica_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 322973,
+      "modified": "2025-11-06T22:45:02",
+      "top_folder": "Programica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Elements_Only_Aptos_with_Gravity_Metrics_V2.docx",
+      "name": "Elements_Only_Aptos_with_Gravity_Metrics_V2.docx",
+      "extension": ".docx",
+      "size": 36873,
+      "modified": "2025-11-05T20:12:54",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\First_48_Metric_Element_Table_Vols_I_II_III_Elements_Only_Aptos.docx",
+      "name": "First_48_Metric_Element_Table_Vols_I_II_III_Elements_Only_Aptos.docx",
+      "extension": ".docx",
+      "size": 36873,
+      "modified": "2025-11-05T20:08:20",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\First_48_Metric_Element_Table_Vols_I_II_III_Codex_V2_2col_left.docx",
+      "name": "First_48_Metric_Element_Table_Vols_I_II_III_Codex_V2_2col_left.docx",
+      "extension": ".docx",
+      "size": 215012,
+      "modified": "2025-11-05T19:59:00",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\First_48_Metric_Element_Table_Vols_I_II_III_Codex_V2_2col.docx",
+      "name": "First_48_Metric_Element_Table_Vols_I_II_III_Codex_V2_2col.docx",
+      "extension": ".docx",
+      "size": 215561,
+      "modified": "2025-11-05T19:56:28",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\First_48_Metric_Element_Table_Vol_III_.docx",
+      "name": "First_48_Metric_Element_Table_Vol_III_.docx",
+      "extension": ".docx",
+      "size": 115902,
+      "modified": "2025-11-05T19:50:14",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Codex_Elements_119_to_127_New_Metrics.docx",
+      "name": "Codex_Elements_119_to_127_New_Metrics.docx",
+      "extension": ".docx",
+      "size": 37427,
+      "modified": "2025-11-05T19:32:02",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\First_48_Metric_Element_Table_Vol_II_.docx",
+      "name": "First_48_Metric_Element_Table_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 162764,
+      "modified": "2025-11-05T19:24:44",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Optixaca_Codexica_\\Optixica_Codexica_Vol_I_.docx",
+      "name": "Optixica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 282432,
+      "modified": "2025-11-05T15:42:28",
+      "top_folder": "Optixaca_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\First_48_Metric_Element_Table_Vol_I_.docx",
+      "name": "First_48_Metric_Element_Table_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 194576,
+      "modified": "2025-11-05T13:53:12",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Codex_New_Metrics_127_Elements.docx",
+      "name": "Codex_New_Metrics_127_Elements.docx",
+      "extension": ".docx",
+      "size": 45490,
+      "modified": "2025-11-05T10:28:14",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonic_Pockets_Simulation_Report.txt",
+      "name": "Harmonic_Pockets_Simulation_Report.txt",
+      "extension": ".txt",
+      "size": 688,
+      "modified": "2025-11-05T09:49:10",
+      "top_folder": "Harmonic_Pockets_Simulation_Report.txt",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Mathematica_Integration_Addendum_Codexica_Vol_VII_.docx",
+      "name": "Mathematica_Integration_Addendum_Codexica_Vol_VII_.docx",
+      "extension": ".docx",
+      "size": 38094,
+      "modified": "2025-11-05T06:17:30",
+      "top_folder": "Mathematica_Integration_Addendum_Codexica_Vol_VII_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Mathematica_Codexica_\\Mathematica_Codexica_Vol_VI_.docx",
+      "name": "Mathematica_Codexica_Vol_VI_.docx",
+      "extension": ".docx",
+      "size": 226937,
+      "modified": "2025-11-04T09:21:32",
+      "top_folder": "Mathematica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Radica_Codexica_\\Radica_Codexica_Vol_I_.docx",
+      "name": "Radica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 219090,
+      "modified": "2025-11-03T21:55:36",
+      "top_folder": "Radica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Filled_12_Codex_Metrics_Element_Table.docx",
+      "name": "Filled_12_Codex_Metrics_Element_Table.docx",
+      "extension": ".docx",
+      "size": 45621,
+      "modified": "2025-11-03T18:16:48",
+      "top_folder": "Filled_12_Codex_Metrics_Element_Table.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Acoustica_Codexica_\\Acoustica_Codexica_Vol_I_.docx",
+      "name": "Acoustica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 237252,
+      "modified": "2025-11-03T16:13:00",
+      "top_folder": "Acoustica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Musica_Codexica_\\Musica_Codexica_Vol_II_.docx",
+      "name": "Musica_Codexica_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 115720,
+      "modified": "2025-11-03T11:38:14",
+      "top_folder": "Musica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Musica_Codexica_\\Musica_Codexica_Vol_I_.docx",
+      "name": "Musica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 244745,
+      "modified": "2025-11-03T10:36:30",
+      "top_folder": "Musica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Rebirth_Sonochemica_Codexica_Vol_II_Supplement.docx",
+      "name": "Rebirth_Sonochemica_Codexica_Vol_II_Supplement.docx",
+      "extension": ".docx",
+      "size": 38167,
+      "modified": "2025-11-03T07:03:46",
+      "top_folder": "Rebirth_Sonochemica_Codexica_Vol_II_Supplement.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Qubit_Build_Specs.txt",
+      "name": "Codex_Qubit_Build_Specs.txt",
+      "extension": ".txt",
+      "size": 2035,
+      "modified": "2025-11-03T00:31:06",
+      "top_folder": "Codex_Qubit_Build_Specs.txt",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Sync_Master_Index.docx",
+      "name": "Codex_Sync_Master_Index.docx",
+      "extension": ".docx",
+      "size": 37565,
+      "modified": "2025-11-03T00:27:14",
+      "top_folder": "Codex_Sync_Master_Index.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Build_Parameters_Extraction.docx",
+      "name": "Codex_Build_Parameters_Extraction.docx",
+      "extension": ".docx",
+      "size": 40068,
+      "modified": "2025-11-03T00:27:12",
+      "top_folder": "Codex_Build_Parameters_Extraction.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Tensor_Tech_Codex_Vol_II_.docx",
+      "name": "Tensor_Tech_Codex_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 185779,
+      "modified": "2025-11-02T23:34:54",
+      "top_folder": "Tensor_Tech_Codex_Vol_II_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Tensor_Tech_Codex_Vol_I_.docx",
+      "name": "Tensor_Tech_Codex_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 187189,
+      "modified": "2025-11-02T22:34:24",
+      "top_folder": "Tensor_Tech_Codex_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Source_Trash_Tensor_III_.docx",
+      "name": "Source_Trash_Tensor_III_.docx",
+      "extension": ".docx",
+      "size": 75326,
+      "modified": "2025-11-02T17:55:14",
+      "top_folder": "Source_Trash_Tensor_III_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Source_Tensor_Codex_Vol_I_.docx",
+      "name": "Source_Tensor_Codex_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 164235,
+      "modified": "2025-11-02T17:54:26",
+      "top_folder": "Source_Tensor_Codex_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Source_Tensor_Codex_Vol_0_.docx",
+      "name": "Source_Tensor_Codex_Vol_0_.docx",
+      "extension": ".docx",
+      "size": 90662,
+      "modified": "2025-11-02T17:52:34",
+      "top_folder": "Source_Tensor_Codex_Vol_0_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Unified_Elemental_Codex_127_Elements_Codex_Sheet (1).docx",
+      "name": "Unified_Elemental_Codex_127_Elements_Codex_Sheet (1).docx",
+      "extension": ".docx",
+      "size": 38042,
+      "modified": "2025-11-02T15:48:42",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_I_Seven_Chambers.docx",
+      "name": "Codex_Volume_I_Seven_Chambers.docx",
+      "extension": ".docx",
+      "size": 113313,
+      "modified": "2025-11-02T01:39:04",
+      "top_folder": "Codex_Volume_I_Seven_Chambers.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Tensor_Codex_Vol_OG_.docx",
+      "name": "Tensor_Codex_Vol_OG_.docx",
+      "extension": ".docx",
+      "size": 281506,
+      "modified": "2025-11-02T01:38:22",
+      "top_folder": "Tensor_Codex_Vol_OG_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_VIII_Backfill_Pure.docx",
+      "name": "Codex_Volume_VIII_Backfill_Pure.docx",
+      "extension": ".docx",
+      "size": 37866,
+      "modified": "2025-11-02T00:54:04",
+      "top_folder": "Codex_Volume_VIII_Backfill_Pure.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_VIII_Backfill_Expansion.docx",
+      "name": "Codex_Volume_VIII_Backfill_Expansion.docx",
+      "extension": ".docx",
+      "size": 38113,
+      "modified": "2025-11-02T00:51:56",
+      "top_folder": "Codex_Volume_VIII_Backfill_Expansion.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_VI_Laws_Axioms.docx",
+      "name": "Codex_Volume_VI_Laws_Axioms.docx",
+      "extension": ".docx",
+      "size": 37223,
+      "modified": "2025-11-02T00:48:14",
+      "top_folder": "Codex_Volume_VI_Laws_Axioms.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_VII_Solver_Appendix.docx",
+      "name": "Codex_Volume_VII_Solver_Appendix.docx",
+      "extension": ".docx",
+      "size": 37008,
+      "modified": "2025-11-02T00:48:14",
+      "top_folder": "Codex_Volume_VII_Solver_Appendix.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_IV_GME_Master_Equations.docx",
+      "name": "Codex_Volume_IV_GME_Master_Equations.docx",
+      "extension": ".docx",
+      "size": 36982,
+      "modified": "2025-11-02T00:48:14",
+      "top_folder": "Codex_Volume_IV_GME_Master_Equations.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_V_Field_Equations.docx",
+      "name": "Codex_Volume_V_Field_Equations.docx",
+      "extension": ".docx",
+      "size": 36974,
+      "modified": "2025-11-02T00:48:14",
+      "top_folder": "Codex_Volume_V_Field_Equations.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_III_Operator_Manual.docx",
+      "name": "Codex_Volume_III_Operator_Manual.docx",
+      "extension": ".docx",
+      "size": 36909,
+      "modified": "2025-11-02T00:48:14",
+      "top_folder": "Codex_Volume_III_Operator_Manual.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Volume_II_Tensors_Turbo.docx",
+      "name": "Codex_Volume_II_Tensors_Turbo.docx",
+      "extension": ".docx",
+      "size": 36956,
+      "modified": "2025-11-02T00:48:08",
+      "top_folder": "Codex_Volume_II_Tensors_Turbo.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Random_Codex_Vol_II_.docx",
+      "name": "Random_Codex_Vol_II_.docx",
+      "extension": ".docx",
+      "size": 244993,
+      "modified": "2025-11-01T20:42:36",
+      "top_folder": "Random_Codex_Vol_II_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Random_Codex_Vol_I_.docx",
+      "name": "Random_Codex_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 235119,
+      "modified": "2025-11-01T01:23:52",
+      "top_folder": "Random_Codex_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Medica_Codexica_\\Codex_Medications_Research_Prototypes.docx",
+      "name": "Codex_Medications_Research_Prototypes.docx",
+      "extension": ".docx",
+      "size": 39451,
+      "modified": "2025-10-30T11:14:20",
+      "top_folder": "Medica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\The_Bio-Harmonic_Codex_Vol_IV_.docx",
+      "name": "The_Bio-Harmonic_Codex_Vol_IV_.docx",
+      "extension": ".docx",
+      "size": 58948,
+      "modified": "2025-10-30T11:05:20",
+      "top_folder": "The_Bio-Harmonic_Codex_Vol_IV_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Aquatica_Codexica_\\Aquatica_Codexica_I_.docx",
+      "name": "Aquatica_Codexica_I_.docx",
+      "extension": ".docx",
+      "size": 311302,
+      "modified": "2025-10-30T00:17:06",
+      "top_folder": "Aquatica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Volume_X_Shiny_Codexica.docx",
+      "name": "Volume_X_Shiny_Codexica.docx",
+      "extension": ".docx",
+      "size": 38656,
+      "modified": "2025-10-29T21:11:24",
+      "top_folder": "Volume_X_Shiny_Codexica.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Unified_Elemental_Codex_Higgs_Phi_Continuum_Compendium.docx",
+      "name": "Unified_Elemental_Codex_Higgs_Phi_Continuum_Compendium.docx",
+      "extension": ".docx",
+      "size": 38247,
+      "modified": "2025-10-29T10:42:04",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Kinetica_Codexica_\\Kinetica_Expansion_Chart.docx",
+      "name": "Kinetica_Expansion_Chart.docx",
+      "extension": ".docx",
+      "size": 38559,
+      "modified": "2025-10-28T23:07:22",
+      "top_folder": "Kinetica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Codexica_Table_of_Elements_Vol_IV_.docx",
+      "name": "Codexica_Table_of_Elements_Vol_IV_.docx",
+      "extension": ".docx",
+      "size": 99389,
+      "modified": "2025-10-28T20:41:54",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Medica_Codexica_\\Medica_Codexica_Vol_I_.docx",
+      "name": "Medica_Codexica_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 314899,
+      "modified": "2025-10-28T18:22:04",
+      "top_folder": "Medica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Quantified_Subatomic_Continuum_v1.docx",
+      "name": "Codex_Quantified_Subatomic_Continuum_v1.docx",
+      "extension": ".docx",
+      "size": 39651,
+      "modified": "2025-10-28T16:28:38",
+      "top_folder": "Codex_Quantified_Subatomic_Continuum_v1.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Implementation_Checklist_v1.docx",
+      "name": "Codex_Implementation_Checklist_v1.docx",
+      "extension": ".docx",
+      "size": 38700,
+      "modified": "2025-10-28T16:23:56",
+      "top_folder": "Codex_Implementation_Checklist_v1.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Translational_Language_v1.docx",
+      "name": "Codex_Translational_Language_v1.docx",
+      "extension": ".docx",
+      "size": 39696,
+      "modified": "2025-10-28T16:22:20",
+      "top_folder": "Codex_Translational_Language_v1.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Harmonic_Conduction_Expansion_v1.docx",
+      "name": "Codex_Harmonic_Conduction_Expansion_v1.docx",
+      "extension": ".docx",
+      "size": 40014,
+      "modified": "2025-10-28T16:16:36",
+      "top_folder": "Codex_Harmonic_Conduction_Expansion_v1.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Codex_Elemental_Ledger_E001-E127_Structure_Vol_I_.docx",
+      "name": "Codex_Elemental_Ledger_E001-E127_Structure_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 41309,
+      "modified": "2025-10-28T16:02:50",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Circuitry_Comparison_and_Impedance_Workflow_Vol_I_.docx",
+      "name": "Codex_Circuitry_Comparison_and_Impedance_Workflow_Vol_I_.docx",
+      "extension": ".docx",
+      "size": 38984,
+      "modified": "2025-10-28T15:53:52",
+      "top_folder": "Codex_Circuitry_Comparison_and_Impedance_Workflow_Vol_I_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Unified_Elemental_Codex_127_Elements_Codex_Sheet.docx",
+      "name": "Unified_Elemental_Codex_127_Elements_Codex_Sheet.docx",
+      "extension": ".docx",
+      "size": 38042,
+      "modified": "2025-10-28T15:29:40",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Codex_Validation_Entry_V-2025-\u03a6-BRIDGE.docx",
+      "name": "Codex_Validation_Entry_V-2025-\u03a6-BRIDGE.docx",
+      "extension": ".docx",
+      "size": 38082,
+      "modified": "2025-10-28T13:55:48",
+      "top_folder": "Codex_Validation_Entry_V-2025-\u03a6-BRIDGE.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Harmonic_Table_II_.docx",
+      "name": "Harmonic_Table_II_.docx",
+      "extension": ".docx",
+      "size": 78422,
+      "modified": "2025-10-27T17:01:20",
+      "top_folder": "Harmonic_Table_II_.docx",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Partica_Elementica_Codexica_\\Element_Groupings_I_.docx",
+      "name": "Element_Groupings_I_.docx",
+      "extension": ".docx",
+      "size": 37083,
+      "modified": "2025-10-27T16:57:36",
+      "top_folder": "Partica_Elementica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    },
+    {
+      "path": "D:\\Lucilica_Codexica_\\Lucile_Codexica_I_.docx",
+      "name": "Lucile_Codexica_I_.docx",
+      "extension": ".docx",
+      "size": 94793,
+      "modified": "2025-10-26T23:28:50",
+      "top_folder": "Lucilica_Codexica_",
+      "relevant_name": true,
+      "local_status": "new_name"
+    }
+  ]
+}

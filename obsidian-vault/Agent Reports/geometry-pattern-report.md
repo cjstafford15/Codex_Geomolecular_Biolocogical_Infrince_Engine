@@ -19,6 +19,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - Candidates: 4
 - Observations: 1
 - Average confidence: 0.3
+- Source reliability: 0.35
+- Evidence score: 0.223
 - Match features: Odor intensity changes over distance; airflow and source surface alter the pattern.
 
 **Candidates:**
@@ -40,6 +42,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - Candidates: 2
 - Observations: 2
 - Average confidence: 0.3
+- Source reliability: 0.375
+- Evidence score: 0.234
 - Match features: Odor releases in bursts rather than steady stream; temporal pattern may trigger different behavior than constant exposure.
 
 **Candidates:**
@@ -59,6 +63,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - Candidates: 2
 - Observations: 1
 - Average confidence: 0.6
+- Source reliability: 0.4
+- Evidence score: 0.41
 - Match features: Complementary shape and polarity distribution allow molecular docking into a receptor cavity.
 
 **Candidates:**
@@ -66,8 +72,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - [[Menthol crystal]]
 
 **Biological contexts:**
-- [[Skin barrier passage geometry]]
 - [[Receptor pocket geometric fit]]
+- [[Skin barrier passage geometry]]
 
 ---
 
@@ -77,6 +83,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - Candidates: 2
 - Observations: 1
 - Average confidence: 0.6
+- Source reliability: 0.4
+- Evidence score: 0.41
 - Match features: Lipid bilayers arranged in stacked sheets; hydrophilic and hydrophobic regions alternate. Permeation depends on defect geometry and molecule aspect ratio.
 
 **Candidates:**
@@ -84,8 +92,8 @@ These geometries appear across multiple candidates or biological contexts. They 
 - [[Aloe vera gel]]
 
 **Biological contexts:**
-- [[Skin barrier passage geometry]]
 - [[Receptor pocket geometric fit]]
+- [[Skin barrier passage geometry]]
 
 ---
 
@@ -95,14 +103,16 @@ These geometries appear across multiple candidates or biological contexts. They 
 - Candidates: 1
 - Observations: 1
 - Average confidence: 0.3
+- Source reliability: 0.4
+- Evidence score: 0.245
 - Match features: Repetitive stimulus bursts at fixed or variable intervals; entrainment or habituation may depend on frequency and duty cycle.
 
 **Candidates:**
 - [[Citronella candle]]
 
 **Biological contexts:**
-- [[Indoor gnat flight reduction]]
 - [[Mosquito attraction]]
+- [[Indoor gnat flight reduction]]
 
 ---
 

@@ -16,23 +16,13 @@
     },
     {
       "parameters": {
-        "command": "python scripts/geometry_pattern_agent.py"
+        "command": "python scripts/run_pipeline.py"
       },
-      "id": "exec-pattern",
-      "name": "Run Pattern Agent",
+      "id": "exec-pipeline",
+      "name": "Run Full Pipeline",
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
-      "position": [450, 300]
-    },
-    {
-      "parameters": {
-        "command": "python scripts/excel_to_obsidian.py --workbook data/geomolecular_template.xlsx --vault obsidian-vault"
-      },
-      "id": "exec-export",
-      "name": "Export to Obsidian",
-      "type": "n8n-nodes-base.executeCommand",
-      "typeVersion": 1,
-      "position": [650, 300]
+      "position": [500, 300]
     },
     {
       "parameters": {
@@ -42,7 +32,7 @@
       "name": "Respond to Webhook",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1,
-      "position": [850, 300]
+      "position": [750, 300]
     }
   ],
   "connections": {
@@ -50,25 +40,14 @@
       "main": [
         [
           {
-            "node": "Run Pattern Agent",
+            "node": "Run Full Pipeline",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Run Pattern Agent": {
-      "main": [
-        [
-          {
-            "node": "Export to Obsidian",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Export to Obsidian": {
+    "Run Full Pipeline": {
       "main": [
         [
           {
@@ -82,8 +61,7 @@
   },
   "settings": {},
   "staticData": null,
-  "tags": ["skynet", "geomolecular", "pattern-agent"],
+  "tags": ["skynet", "geomolecular", "pattern-agent", "evidence-agent", "captain-agent", "private-local"],
   "pinData": {},
-  "versionId": "geomolecular-pattern-v1"
+  "versionId": "geomolecular-pattern-v3"
 }
-

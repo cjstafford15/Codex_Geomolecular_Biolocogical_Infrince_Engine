@@ -2,10 +2,18 @@ from __future__ import annotations
 
 import json
 from collections import defaultdict
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Iterable
 
-from openpyxl import load_workbook
+from geomolecular_data import (
+    average,
+    average_source_reliability,
+    confidence_score,
+    has_meaningful_contradiction,
+    read_workbook,
+    split_ids,
+    validation_score,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKBOOK = ROOT / "data" / "geomolecular_template.xlsx"
@@ -13,42 +21,8 @@ VAULT = ROOT / "obsidian-vault"
 REPORT_DIR = VAULT / "Agent Reports"
 
 
-def clean(value: object) -> str:
-    if value is None:
-        return ""
-    return str(value).strip()
-
-
-def split_ids(value: str) -> list[str]:
-    return [part.strip() for part in value.split(",") if part.strip()]
-
-
-def read_sheet(workbook_path: Path, sheet_name: str) -> list[dict[str, str]]:
-    wb = load_workbook(workbook_path, data_only=True)
-    if sheet_name not in wb.sheetnames:
-        return []
-    ws = wb[sheet_name]
-    rows = list(ws.iter_rows(values_only=True))
-    if not rows:
-        return []
-    headers = [clean(h) for h in rows[0]]
-    records = []
-    for row in rows[1:]:
-        record = {headers[i]: clean(v) for i, v in enumerate(row) if i < len(headers)}
-        if any(record.values()):
-            records.append(record)
-    return records
-
-
 def load_records(workbook_path: Path) -> dict[str, list[dict[str, str]]]:
-    sheets = {
-        "GeometrySignatures",
-        "CandidateMaterials",
-        "Observations",
-        "BiologicalDefinitions",
-        "ProductIdeas",
-    }
-    return {s: read_sheet(workbook_path, s) for s in sheets}
+    return read_workbook(workbook_path)
 
 
 def analyze_patterns(records: dict[str, list[dict[str, str]]]) -> dict:
@@ -56,9 +30,11 @@ def analyze_patterns(records: dict[str, list[dict[str, str]]]) -> dict:
     candidates = records["CandidateMaterials"]
     observations = records["Observations"]
     bios = records["BiologicalDefinitions"]
+    sources = records["Sources"]
 
     bio_by_id = {b["bio_id"]: b for b in bios if b.get("bio_id")}
     geo_by_id = {g["geometry_id"]: g for g in geometries if g.get("geometry_id")}
+    sources_by_id = {s["source_id"]: s for s in sources if s.get("source_id")}
 
     # Group candidates by geometry
     candidates_by_geo: dict[str, list[dict]] = defaultdict(list)
@@ -99,13 +75,22 @@ def analyze_patterns(records: dict[str, list[dict[str, str]]]) -> dict:
                 "candidates": [c.get("name", c.get("candidate_id", "")) for c in cand_list],
                 "match_features": geo.get("match_features", ""),
                 "confidence": _avg_confidence(obs_list),
+                "source_reliability": _avg_source_reliability(obs_list, sources_by_id),
+                "evidence_score": _avg_evidence_score(obs_list, sources_by_id),
             })
 
-    # Rank by frequency and confidence
-    cross_bio_matches.sort(key=lambda x: (x["candidate_count"] + x["observation_count"], x["confidence"]), reverse=True)
+    # Rank by breadth first, then evidence quality.
+    cross_bio_matches.sort(
+        key=lambda x: (
+            x["candidate_count"] + x["observation_count"],
+            x["evidence_score"],
+            x["confidence"],
+        ),
+        reverse=True,
+    )
 
     return {
-        "generated_at": str(Path().stat().st_mtime),
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "geometry_count": len(geometries),
         "candidate_count": len(candidates),
         "observation_count": len(observations),
@@ -114,11 +99,28 @@ def analyze_patterns(records: dict[str, list[dict[str, str]]]) -> dict:
 
 
 def _avg_confidence(observations: list[dict]) -> float:
-    if not observations:
-        return 0.0
-    scores = {"high": 1.0, "medium": 0.6, "low": 0.3}
-    total = sum(scores.get(o.get("confidence", "").lower(), 0.0) for o in observations)
-    return round(total / len(observations), 2)
+    return average(confidence_score(o.get("confidence", "")) for o in observations)
+
+
+def _avg_source_reliability(
+    observations: list[dict],
+    sources_by_id: dict[str, dict[str, str]],
+) -> float:
+    return average(average_source_reliability(o.get("source_ids", ""), sources_by_id) for o in observations)
+
+
+def _avg_evidence_score(
+    observations: list[dict],
+    sources_by_id: dict[str, dict[str, str]],
+) -> float:
+    return average(
+        validation_score(
+            confidence_score(o.get("confidence", "")),
+            average_source_reliability(o.get("source_ids", ""), sources_by_id),
+            has_meaningful_contradiction(o.get("contradiction", "")),
+        )
+        for o in observations
+    )
 
 
 def render_report(analysis: dict) -> str:
@@ -147,6 +149,8 @@ def render_report(analysis: dict) -> str:
         lines.append(f"- Candidates: {match['candidate_count']}")
         lines.append(f"- Observations: {match['observation_count']}")
         lines.append(f"- Average confidence: {match['confidence']}")
+        lines.append(f"- Source reliability: {match['source_reliability']}")
+        lines.append(f"- Evidence score: {match['evidence_score']}")
         lines.append(f"- Match features: {match['match_features']}")
         lines.append("")
         lines.append("**Candidates:**")

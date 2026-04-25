@@ -81,3 +81,35 @@ Use one workbook with stable sheet names. The exporter expects the first row to 
 | required_validation | Tests, measurements, safety review, regulatory review, or evidence gaps. |
 | blocked_claims | Claims that must not be made yet. |
 
+## ExternalAgents
+
+| Column | Purpose |
+| --- | --- |
+| agent_id | Stable ID for an external or specialized agent. |
+| agent_name | Human-readable agent name. |
+| agent_type | Structure predictor, simulator, pattern generator, or other agent class. |
+| repository_url | Source repository or project URL. |
+| primary_function | What the agent contributes to geometry-first inference. |
+| corpus_description | Data, model, or simulation corpus the agent uses. |
+| inference_method | How inputs become geometry outputs. |
+| action_outputs | Artifacts the agent can produce for this project. |
+| shadow_agent_id | ID from `ShadowAgents`, when paired. |
+| geometry_mappings | Text description of external output to geometry-signature mapping. |
+| candidate_links | Comma-separated IDs from `CandidateMaterials`. |
+| source_ids | Comma-separated IDs from `Sources`. |
+
+## ShadowAgents
+
+| Column | Purpose |
+| --- | --- |
+| shadow_agent_id | Stable ID for the companion shadow agent. |
+| primary_agent_id | ID from `ExternalAgents`. |
+| shadow_role | Hidden, latent, or uncertainty-tracking role. |
+| latent_dimensions | Latent variables or hidden fields tracked by the shadow agent. |
+| hidden_parameters | Parameters that influence inference but may not appear in direct outputs. |
+| inference_methods | How latent state is estimated. |
+| activation_conditions | Conditions that trigger shadow review. |
+| belief_state_format | Structured format for the shadow agent state. |
+| temporal_operators | Time-evolution or update logic. |
+| shadow_correlations | Relationships between hidden state and geometry confidence. |
+| geometry_transitions | Geometry state changes the shadow agent watches for. |

@@ -8,15 +8,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def run(cmd: list[str], cwd: Path = ROOT) -> None:
-    print(f"\n>>> {' '.join(cmd)}")
-    result = subprocess.run(cmd, cwd=cwd, check=False)
-    if result.returncode != 0:
-        print(f"Warning: command exited with code {result.returncode}")
+    print(f"\n>>> {' '.join(cmd)}", flush=True)
+    subprocess.run(cmd, cwd=cwd, check=True)
 
 
 def main() -> None:
-    print("=== Geomolecular Pipeline ===")
-    print("Step 1: Export Excel to Obsidian")
+    print("=== Geomolecular Pipeline ===", flush=True)
+    print("Step 1: Export Excel to Obsidian", flush=True)
     run([
         sys.executable,
         str(ROOT / "scripts" / "excel_to_obsidian.py"),
@@ -24,15 +22,21 @@ def main() -> None:
         "--vault", str(ROOT / "obsidian-vault"),
     ])
 
-    print("\nStep 2: Run Geometry Pattern Agent")
+    print("\nStep 2: Run Geometry Pattern Agent", flush=True)
     run([sys.executable, str(ROOT / "scripts" / "geometry_pattern_agent.py")])
 
-    print("\nStep 3: Run Product Concept Agent")
+    print("\nStep 3: Run Evidence Agent", flush=True)
+    run([sys.executable, str(ROOT / "scripts" / "evidence_agent.py")])
+
+    print("\nStep 4: Run Product Concept Agent", flush=True)
     run([sys.executable, str(ROOT / "scripts" / "product_concept_agent.py")])
 
-    print("\n=== Pipeline Complete ===")
-    print(f"Vault: {ROOT / 'obsidian-vault'}")
-    print(f"Reports: {ROOT / 'obsidian-vault' / 'Agent Reports'}")
+    print("\nStep 5: Run Captain Connectivity Agent", flush=True)
+    run([sys.executable, str(ROOT / "scripts" / "captain_connectivity_.py")])
+
+    print("\n=== Pipeline Complete ===", flush=True)
+    print(f"Vault: {ROOT / 'obsidian-vault'}", flush=True)
+    print(f"Reports: {ROOT / 'obsidian-vault' / 'Agent Reports'}", flush=True)
 
 
 if __name__ == "__main__":

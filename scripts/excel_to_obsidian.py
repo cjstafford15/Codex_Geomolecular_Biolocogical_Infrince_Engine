@@ -6,27 +6,10 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Iterable
 
-from openpyxl import load_workbook
+from geomolecular_data import CORE_SHEETS, index_by, read_workbook, split_ids
 
 
-REQUIRED_SHEETS = {
-    "BiologicalDefinitions",
-    "GeometrySignatures",
-    "CandidateMaterials",
-    "Observations",
-    "Sources",
-    "ProductIdeas",
-}
-
-
-def clean(value: object) -> str:
-    if value is None:
-        return ""
-    return str(value).strip()
-
-
-def split_ids(value: str) -> list[str]:
-    return [part.strip() for part in value.split(",") if part.strip()]
+REQUIRED_SHEETS = CORE_SHEETS
 
 
 def slugify(value: str) -> str:
@@ -46,42 +29,13 @@ def bullet_links(titles: Iterable[str]) -> str:
     return "\n".join(f"- {note_link(title)}" for title in sorted(set(values)))
 
 
-def read_sheet(workbook_path: Path, sheet_name: str) -> list[dict[str, str]]:
-    wb = load_workbook(workbook_path, data_only=True)
-    if sheet_name not in wb.sheetnames:
-        return []
-
-    ws = wb[sheet_name]
-    rows = list(ws.iter_rows(values_only=True))
-    if not rows:
-        return []
-
-    headers = [clean(header) for header in rows[0]]
-    records: list[dict[str, str]] = []
-    for row in rows[1:]:
-        record = {headers[index]: clean(value) for index, value in enumerate(row) if index < len(headers)}
-        if any(record.values()):
-            records.append(record)
-    return records
-
-
 def load_records(workbook_path: Path) -> dict[str, list[dict[str, str]]]:
-    wb = load_workbook(workbook_path, read_only=True)
-    missing = REQUIRED_SHEETS.difference(wb.sheetnames)
-    if missing:
-        missing_list = ", ".join(sorted(missing))
-        raise ValueError(f"Workbook is missing required sheet(s): {missing_list}")
-    wb.close()
-    return {sheet_name: read_sheet(workbook_path, sheet_name) for sheet_name in REQUIRED_SHEETS}
+    return read_workbook(workbook_path, required_sheets=REQUIRED_SHEETS)
 
 
 def write_note(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content.rstrip() + "\n", encoding="utf-8")
-
-
-def index_by(records: list[dict[str, str]], key: str) -> dict[str, dict[str, str]]:
-    return {record[key]: record for record in records if record.get(key)}
 
 
 def render_geometry_notes(records: dict[str, list[dict[str, str]]], vault: Path) -> None:
@@ -375,4 +329,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

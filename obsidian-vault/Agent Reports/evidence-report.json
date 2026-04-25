@@ -1,0 +1,523 @@
+{
+  "generated_at": "2026-04-25T02:53:14+00:00",
+  "summary": {
+    "geometry_count": 7,
+    "candidate_count": 10,
+    "observation_count": 7,
+    "source_count": 9,
+    "product_idea_count": 4,
+    "validation_issue_count": 0,
+    "average_observation_evidence_score": 0.286
+  },
+  "validation_issues": [],
+  "source_inventory": {
+    "reliability_counts": {
+      "anecdotal": 2,
+      "high": 3,
+      "medium": 2,
+      "unverified": 2
+    },
+    "type_counts": {
+      "external-api": 1,
+      "hypothesis": 1,
+      "observation": 1,
+      "paper": 2,
+      "project note": 1,
+      "recipe": 1,
+      "simulation-framework": 2
+    }
+  },
+  "observation_evidence": [
+    {
+      "observation_id": "OBS-001",
+      "candidate_id": "CAND-APPLE-CIDER-VINEGAR",
+      "candidate_name": "Apple cider vinegar",
+      "geometry_id": "GEO-VOLATILE-PLUME-GRADIENT",
+      "geometry_name": "Volatile plume gradient",
+      "bio_id": "BIO-FLY-ATTRACTION",
+      "bio_term": "Fly attraction",
+      "confidence": 0.3,
+      "source_reliability": 0.35,
+      "has_contradiction": true,
+      "evidence_score": 0.223,
+      "source_ids": [
+        "SRC-PROJECT-NOTE-001"
+      ],
+      "reasons": [
+        "low confidence",
+        "weak source reliability",
+        "contradiction or confounder recorded"
+      ]
+    },
+    {
+      "observation_id": "OBS-002",
+      "candidate_id": "CAND-YEAST-BLOOM-MASH",
+      "candidate_name": "Yeast bloom mash",
+      "geometry_id": "GEO-VOLATILE-PLUME-PULSE",
+      "geometry_name": "Volatile plume temporal pulse",
+      "bio_id": "BIO-MOSQUITO-ATTRACTION",
+      "bio_term": "Mosquito attraction",
+      "confidence": 0.3,
+      "source_reliability": 0.35,
+      "has_contradiction": true,
+      "evidence_score": 0.223,
+      "source_ids": [
+        "SRC-RECIPE-004"
+      ],
+      "reasons": [
+        "low confidence",
+        "weak source reliability",
+        "contradiction or confounder recorded"
+      ]
+    },
+    {
+      "observation_id": "OBS-003",
+      "candidate_id": "CAND-ESSENTIAL-OIL-DIFFUSER",
+      "candidate_name": "Essential oil diffuser",
+      "geometry_id": "GEO-VOLATILE-PLUME-PULSE",
+      "geometry_name": "Volatile plume temporal pulse",
+      "bio_id": "BIO-GNAT-FLIGHT-REDUCTION",
+      "bio_term": "Indoor gnat flight reduction",
+      "confidence": 0.3,
+      "source_reliability": 0.4,
+      "has_contradiction": true,
+      "evidence_score": 0.245,
+      "source_ids": [
+        "SRC-HOUSEHOLD-002"
+      ],
+      "reasons": [
+        "low confidence",
+        "weak source reliability",
+        "contradiction or confounder recorded"
+      ]
+    },
+    {
+      "observation_id": "OBS-004",
+      "candidate_id": "CAND-SOAP-FILM-RESIDUE",
+      "candidate_name": "Soap film residue",
+      "geometry_id": "GEO-SURFACE-FILM-INTERFACE",
+      "geometry_name": "Surface film interface",
+      "bio_id": "BIO-SURFACE-ADHESION-REPEL",
+      "bio_term": "Surface adhesion repulsion",
+      "confidence": 0.3,
+      "source_reliability": 0.4,
+      "has_contradiction": true,
+      "evidence_score": 0.245,
+      "source_ids": [
+        "SRC-HOUSEHOLD-002"
+      ],
+      "reasons": [
+        "low confidence",
+        "weak source reliability",
+        "contradiction or confounder recorded"
+      ]
+    },
+    {
+      "observation_id": "OBS-007",
+      "candidate_id": "CAND-CITRONELLA-CANDLE",
+      "candidate_name": "Citronella candle",
+      "geometry_id": "GEO-TEMPORAL-PULSE-TRAIN",
+      "geometry_name": "Temporal pulse train",
+      "bio_id": "BIO-GNAT-FLIGHT-REDUCTION",
+      "bio_term": "Indoor gnat flight reduction",
+      "confidence": 0.3,
+      "source_reliability": 0.4,
+      "has_contradiction": true,
+      "evidence_score": 0.245,
+      "source_ids": [
+        "SRC-HOUSEHOLD-002"
+      ],
+      "reasons": [
+        "low confidence",
+        "weak source reliability",
+        "contradiction or confounder recorded"
+      ]
+    },
+    {
+      "observation_id": "OBS-005",
+      "candidate_id": "CAND-MENTHOL-CRYSTAL",
+      "candidate_name": "Menthol crystal",
+      "geometry_id": "GEO-BINDING-POCKET-CAVITY",
+      "geometry_name": "Binding pocket cavity",
+      "bio_id": "BIO-RECEPTOR-POCKET-FIT",
+      "bio_term": "Receptor pocket geometric fit",
+      "confidence": 0.6,
+      "source_reliability": 0.4,
+      "has_contradiction": true,
+      "evidence_score": 0.41,
+      "source_ids": [
+        "SRC-MEDICAL-003"
+      ],
+      "reasons": [
+        "weak source reliability",
+        "contradiction or confounder recorded"
+      ]
+    },
+    {
+      "observation_id": "OBS-006",
+      "candidate_id": "CAND-MENTHOL-CRYSTAL",
+      "candidate_name": "Menthol crystal",
+      "geometry_id": "GEO-SKIN-LAMELLAR-LAYER",
+      "geometry_name": "Skin lamellar lipid layer",
+      "bio_id": "BIO-SKIN-BARRIER-PASSAGE",
+      "bio_term": "Skin barrier passage geometry",
+      "confidence": 0.6,
+      "source_reliability": 0.4,
+      "has_contradiction": true,
+      "evidence_score": 0.41,
+      "source_ids": [
+        "SRC-MEDICAL-003"
+      ],
+      "reasons": [
+        "weak source reliability",
+        "contradiction or confounder recorded"
+      ]
+    }
+  ],
+  "evidence_by_geometry": [
+    {
+      "geometry_id": "GEO-SURFACE-TEXTURE-RIDGE",
+      "geometry_name": "Surface texture ridge",
+      "observation_count": 0,
+      "evidence_score": 0.0,
+      "lowest_observation_score": 0.0,
+      "contradiction_count": 0
+    },
+    {
+      "geometry_id": "GEO-VOLATILE-PLUME-GRADIENT",
+      "geometry_name": "Volatile plume gradient",
+      "observation_count": 1,
+      "evidence_score": 0.223,
+      "lowest_observation_score": 0.223,
+      "contradiction_count": 1
+    },
+    {
+      "geometry_id": "GEO-VOLATILE-PLUME-PULSE",
+      "geometry_name": "Volatile plume temporal pulse",
+      "observation_count": 2,
+      "evidence_score": 0.234,
+      "lowest_observation_score": 0.223,
+      "contradiction_count": 2
+    },
+    {
+      "geometry_id": "GEO-SURFACE-FILM-INTERFACE",
+      "geometry_name": "Surface film interface",
+      "observation_count": 1,
+      "evidence_score": 0.245,
+      "lowest_observation_score": 0.245,
+      "contradiction_count": 1
+    },
+    {
+      "geometry_id": "GEO-TEMPORAL-PULSE-TRAIN",
+      "geometry_name": "Temporal pulse train",
+      "observation_count": 1,
+      "evidence_score": 0.245,
+      "lowest_observation_score": 0.245,
+      "contradiction_count": 1
+    },
+    {
+      "geometry_id": "GEO-BINDING-POCKET-CAVITY",
+      "geometry_name": "Binding pocket cavity",
+      "observation_count": 1,
+      "evidence_score": 0.41,
+      "lowest_observation_score": 0.41,
+      "contradiction_count": 1
+    },
+    {
+      "geometry_id": "GEO-SKIN-LAMELLAR-LAYER",
+      "geometry_name": "Skin lamellar lipid layer",
+      "observation_count": 1,
+      "evidence_score": 0.41,
+      "lowest_observation_score": 0.41,
+      "contradiction_count": 1
+    }
+  ],
+  "evidence_by_candidate": [
+    {
+      "candidate_id": "CAND-SUGAR-FERMENT-AROMA",
+      "candidate_name": "Sugar fermentation aroma",
+      "safety_status": "needs review",
+      "observation_count": 0,
+      "evidence_score": 0.0,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-CAPSAICIN-EXTRACT",
+      "candidate_name": "Capsaicin extract",
+      "safety_status": "needs review",
+      "observation_count": 0,
+      "evidence_score": 0.0,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-ALOE-VERA-GEL",
+      "candidate_name": "Aloe vera gel",
+      "safety_status": "needs review",
+      "observation_count": 0,
+      "evidence_score": 0.0,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-BAKING-SODA-PASTE",
+      "candidate_name": "Baking soda paste",
+      "safety_status": "low concern",
+      "observation_count": 0,
+      "evidence_score": 0.0,
+      "needs_safety_review": false
+    },
+    {
+      "candidate_id": "CAND-APPLE-CIDER-VINEGAR",
+      "candidate_name": "Apple cider vinegar",
+      "safety_status": "needs review",
+      "observation_count": 1,
+      "evidence_score": 0.223,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-YEAST-BLOOM-MASH",
+      "candidate_name": "Yeast bloom mash",
+      "safety_status": "needs review",
+      "observation_count": 1,
+      "evidence_score": 0.223,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-ESSENTIAL-OIL-DIFFUSER",
+      "candidate_name": "Essential oil diffuser",
+      "safety_status": "needs review",
+      "observation_count": 1,
+      "evidence_score": 0.245,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-SOAP-FILM-RESIDUE",
+      "candidate_name": "Soap film residue",
+      "safety_status": "needs review",
+      "observation_count": 1,
+      "evidence_score": 0.245,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-CITRONELLA-CANDLE",
+      "candidate_name": "Citronella candle",
+      "safety_status": "needs review",
+      "observation_count": 1,
+      "evidence_score": 0.245,
+      "needs_safety_review": true
+    },
+    {
+      "candidate_id": "CAND-MENTHOL-CRYSTAL",
+      "candidate_name": "Menthol crystal",
+      "safety_status": "needs review",
+      "observation_count": 2,
+      "evidence_score": 0.41,
+      "needs_safety_review": true
+    }
+  ],
+  "measurement_gaps": [
+    {
+      "gap_type": "observation_validation",
+      "target": "OBS-001",
+      "reason": "low confidence, weak source reliability, contradiction or confounder recorded",
+      "recommended_next_measurement": "Measure volatile concentration over distance and time with a matched control."
+    },
+    {
+      "gap_type": "observation_validation",
+      "target": "OBS-002",
+      "reason": "low confidence, weak source reliability, contradiction or confounder recorded",
+      "recommended_next_measurement": "Measure volatile concentration over distance and time with a matched control."
+    },
+    {
+      "gap_type": "observation_validation",
+      "target": "OBS-003",
+      "reason": "low confidence, weak source reliability, contradiction or confounder recorded",
+      "recommended_next_measurement": "Measure volatile concentration over distance and time with a matched control."
+    },
+    {
+      "gap_type": "observation_validation",
+      "target": "OBS-004",
+      "reason": "low confidence, weak source reliability, contradiction or confounder recorded",
+      "recommended_next_measurement": "Measure contact angle, surface roughness, and treated versus untreated adhesion."
+    },
+    {
+      "gap_type": "observation_validation",
+      "target": "OBS-005",
+      "reason": "weak source reliability, contradiction or confounder recorded",
+      "recommended_next_measurement": "Record structural model source, pocket fit metric, and experimental binding status."
+    },
+    {
+      "gap_type": "observation_validation",
+      "target": "OBS-006",
+      "reason": "weak source reliability, contradiction or confounder recorded",
+      "recommended_next_measurement": "Use a permeation assay or literature measurement with irritation and safety review."
+    },
+    {
+      "gap_type": "observation_validation",
+      "target": "OBS-007",
+      "reason": "low confidence, weak source reliability, contradiction or confounder recorded",
+      "recommended_next_measurement": "Record frequency, duty cycle, and matched steady-output controls."
+    },
+    {
+      "gap_type": "geometry_without_observation",
+      "target": "Surface texture ridge",
+      "reason": "geometry has no observation record",
+      "recommended_next_measurement": "Measure contact angle, surface roughness, and treated versus untreated adhesion."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Apple cider vinegar",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Sugar fermentation aroma",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Yeast bloom mash",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Essential oil diffuser",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Soap film residue",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Citronella candle",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Capsaicin extract",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Menthol crystal",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "safety_review",
+      "target": "Aloe vera gel",
+      "reason": "safety status is needs review",
+      "recommended_next_measurement": "Record safe handling limits and blocked claims before product interpretation."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Geometry-led insect behavior screen",
+      "reason": "Controlled observation, exposure safety review, environmental review, and claim review.",
+      "recommended_next_measurement": "Measure volatile concentration over distance and time with a matched control."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Geometry-led insect behavior screen",
+      "reason": "Controlled observation, exposure safety review, environmental review, and claim review.",
+      "recommended_next_measurement": "Measure contact angle, surface roughness, and treated versus untreated adhesion."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Geometry-led insect behavior screen",
+      "reason": "Apple cider vinegar still needs review.",
+      "recommended_next_measurement": "Do not claim attraction, repellency, elimination, medical value, or pesticide efficacy yet."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Geometry-led insect behavior screen",
+      "reason": "Sugar fermentation aroma still needs review.",
+      "recommended_next_measurement": "Do not claim attraction, repellency, elimination, medical value, or pesticide efficacy yet."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Pulse modulated aroma delivery",
+      "reason": "Controlled observation with matched total volatile output; temporal pattern as independent variable.",
+      "recommended_next_measurement": "Measure volatile concentration over distance and time with a matched control."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Pulse modulated aroma delivery",
+      "reason": "Controlled observation with matched total volatile output; temporal pattern as independent variable.",
+      "recommended_next_measurement": "Record frequency, duty cycle, and matched steady-output controls."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Pulse modulated aroma delivery",
+      "reason": "Essential oil diffuser still needs review.",
+      "recommended_next_measurement": "Do not claim repellency, medical effect, or guaranteed behavioral change."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Pulse modulated aroma delivery",
+      "reason": "Yeast bloom mash still needs review.",
+      "recommended_next_measurement": "Do not claim repellency, medical effect, or guaranteed behavioral change."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Pulse modulated aroma delivery",
+      "reason": "Citronella candle still needs review.",
+      "recommended_next_measurement": "Do not claim repellency, medical effect, or guaranteed behavioral change."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Geometry-led surface coating screen",
+      "reason": "Surface profilometry, contact angle measurement, biological adhesion assay, safety review.",
+      "recommended_next_measurement": "Measure contact angle, surface roughness, and treated versus untreated adhesion."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Geometry-led surface coating screen",
+      "reason": "Surface profilometry, contact angle measurement, biological adhesion assay, safety review.",
+      "recommended_next_measurement": "Measure contact angle, surface roughness, and treated versus untreated adhesion."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Geometry-led surface coating screen",
+      "reason": "Soap film residue still needs review.",
+      "recommended_next_measurement": "Do not claim pesticidal, medical, or antimicrobial surface action without validation."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Dermal permeation geometry screen",
+      "reason": "Franz cell permeation assay, receptor binding assay, safety and irritation review.",
+      "recommended_next_measurement": "Use a permeation assay or literature measurement with irritation and safety review."
+    },
+    {
+      "gap_type": "product_validation",
+      "target": "Dermal permeation geometry screen",
+      "reason": "Franz cell permeation assay, receptor binding assay, safety and irritation review.",
+      "recommended_next_measurement": "Record structural model source, pocket fit metric, and experimental binding status."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Dermal permeation geometry screen",
+      "reason": "Menthol crystal still needs review.",
+      "recommended_next_measurement": "Do not claim therapeutic effect, dosing, or clinical efficacy."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Dermal permeation geometry screen",
+      "reason": "Aloe vera gel still needs review.",
+      "recommended_next_measurement": "Do not claim therapeutic effect, dosing, or clinical efficacy."
+    },
+    {
+      "gap_type": "blocked_claim_review",
+      "target": "Dermal permeation geometry screen",
+      "reason": "Capsaicin extract still needs review.",
+      "recommended_next_measurement": "Do not claim therapeutic effect, dosing, or clinical efficacy."
+    }
+  ]
+}
